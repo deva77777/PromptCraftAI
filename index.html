@@ -34,8 +34,8 @@
     <!-- Primary Meta Tags -->
     <title>AI Image Prompt Generator | Create Perfect Midjourney, DALL-E & Stable Diffusion Prompts</title>
     <meta name="title" content="AI Image Prompt Generator | Create Perfect Midjourney, DALL-E & Stable Diffusion Prompts">
-    <meta name="description" content="Free AI image prompt generator for Midjourney, DALL-E, Stable Diffusion & Leonardo AI. Master photography prompts with 500+ options for lighting, camera angles, styles, compositions & more. Create stunning AI art today!">
-    <meta name="keywords" content="AI image prompt generator, Midjourney prompts, DALL-E prompts, Stable Diffusion prompts, AI art generator, photography prompts, AI photography, prompt builder, text to image, AI image creation, Leonardo AI, prompt engineering, camera angles, lighting styles, portrait photography, landscape photography">
+    <meta name="description" content="Free AI image prompt generator for Midjourney, DALL-E, Stable Diffusion, Leonardo AI & Google ImageFX. Master photography prompts with 500+ options for lighting, camera angles, styles, compositions & more. Create stunning AI art today!">
+    <meta name="keywords" content="AI image prompt generator, Midjourney prompts, DALL-E prompts, Stable Diffusion prompts, Google ImageFX prompts, AI art generator, photography prompts, AI photography, prompt builder, text to image, AI image creation, Leonardo AI, prompt engineering, camera angles, lighting styles, portrait photography, landscape photography">
     <meta name="author" content="PromptCraft AI">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
@@ -83,7 +83,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "PromptCraft AI - AI Image Prompt Generator",
-        "description": "Free AI image prompt generator for Midjourney, DALL-E, Stable Diffusion & Leonardo AI. Create perfect photography prompts with 500+ options.",
+        "description": "Free AI image prompt generator for Midjourney, DALL-E, Stable Diffusion, Leonardo AI & Google ImageFX. Create perfect photography prompts with 500+ options.",
         "url": "https://promptcraftai.com",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Any",
@@ -138,7 +138,7 @@
                 "name": "What AI tools work with these prompts?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Our prompts work with all major AI image generators including Midjourney, DALL-E 3, Stable Diffusion, Leonardo AI, Adobe Firefly, and other text-to-image AI tools."
+                    "text": "Our prompts work with all major AI image generators including Midjourney, DALL-E 3, Stable Diffusion, Leonardo AI, Adobe Firefly, Google ImageFX, and other text-to-image AI tools."
                 }
             },
             {
@@ -718,7 +718,7 @@
                             <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
                         </summary>
                         <div class="px-6 pb-6 text-gray-400">
-                            <p>An AI image prompt generator is a tool that helps you create detailed, structured text prompts for AI image generation tools like <strong>Midjourney</strong>, <strong>DALL-E</strong>, <strong>Stable Diffusion</strong>, and <strong>Leonardo AI</strong>. Instead of guessing what terms to use, our generator provides curated options for camera angles, lighting styles, moods, compositions, and quality modifiers that AI models understand and respond to effectively.</p>
+                            <p>An AI image prompt generator is a tool that helps you create detailed, structured text prompts for AI image generation tools like <strong>Midjourney</strong>, <strong>DALL-E</strong>, <strong>Stable Diffusion</strong>, <strong>Leonardo AI</strong>, and <strong>Google ImageFX</strong>. Instead of guessing what terms to use, our generator provides curated options for camera angles, lighting styles, moods, compositions, and quality modifiers that AI models understand and respond to effectively.</p>
                         </div>
                     </details>
                     
@@ -755,6 +755,7 @@
                                 <li><strong>Stable Diffusion</strong> - Open-source image generation</li>
                                 <li><strong>Leonardo AI</strong> - Professional AI image platform</li>
                                 <li><strong>Adobe Firefly</strong> - Adobe's generative AI</li>
+                                <li><strong>Google ImageFX</strong> - Free, powered by Imagen 2</li>
                                 <li><strong>Playground AI, NightCafe, and more</strong></li>
                             </ul>
                         </div>
@@ -821,7 +822,7 @@
                             <span class="text-2xl">🎨</span>
                             <span class="font-bold text-xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">PromptCraft AI</span>
                         </div>
-                        <p class="text-gray-400 mb-4">The ultimate free AI image prompt generator. Create professional prompts for Midjourney, DALL-E, Stable Diffusion, and more with 500+ curated options.</p>
+                        <p class="text-gray-400 mb-4">The ultimate free AI image prompt generator. Create professional prompts for Midjourney, DALL-E, Stable Diffusion, Google ImageFX, and more with 500+ curated options.</p>
                         <p class="text-gray-500 text-sm">© 2024 PromptCraft AI. Free to use for everyone.</p>
                     </div>
                     
@@ -855,6 +856,7 @@
                             <li>Stable Diffusion</li>
                             <li>Leonardo AI</li>
                             <li>Adobe Firefly</li>
+                            <li>Google ImageFX</li>
                         </ul>
                     </div>
                 </div>
@@ -862,7 +864,7 @@
                 <!-- Bottom Bar -->
                 <div class="border-t border-white/10 pt-8 text-center">
                     <p class="text-gray-500 text-sm">Made with ❤️ for AI artists and photographers worldwide</p>
-                    <p class="text-gray-600 text-xs mt-2">Keywords: AI prompt generator, Midjourney prompts, DALL-E prompts, Stable Diffusion prompts, AI art, text to image, photography prompts</p>
+                    <p class="text-gray-600 text-xs mt-2">Keywords: AI prompt generator, Midjourney prompts, DALL-E prompts, Stable Diffusion prompts, Google ImageFX prompts, AI art, text to image, photography prompts</p>
                 </div>
             </div>
         </footer>
@@ -1599,6 +1601,10 @@ service cloud.firestore {
                                         <span class="bg-orange-600/30 text-orange-300 px-2 py-0.5 rounded text-xs font-mono">Stable Diffusion</span>
                                         <span class="text-gray-400">Use ControlNet / IP-Adapter with reference</span>
                                     </div>
+                                    <div class="flex items-start gap-2">
+                                        <span class="bg-red-600/30 text-red-300 px-2 py-0.5 rounded text-xs font-mono">Google ImageFX</span>
+                                        <span class="text-gray-400">Describe reference in prompt (no direct upload)</span>
+                                    </div>
                                 </div>
                                 <p class="text-gray-500 text-xs mt-3">💡 Replace [IMAGE_URL] with your actual image URL when using the prompt.</p>
                             </div>
@@ -1731,7 +1737,7 @@ service cloud.firestore {
                     <p>If you have questions about this Privacy Policy, please contact us at:</p>
                     <ul>
                         <li>Email: privacy@promptcraftai.com</li>
-                        <li>Website: <a href="#" onclick="showPage('landing'); return false;">promptcraftai.xyz</a></li>
+                        <li>Website: <a href="#" onclick="showPage('landing'); return false;">promptcraftai.com</a></li>
                     </ul>
                 </div>
                 
