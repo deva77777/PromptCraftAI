@@ -1,0 +1,3091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Analytics 4 -->
+    <!-- Your Google Analytics 4 Measurement ID: G-YSXK3LHEYM -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YSXK3LHEYM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        // Default consent mode - respects user's cookie preferences
+        gtag('consent', 'default', {
+            'analytics_storage': 'denied',
+            'ad_storage': 'denied'
+        });
+        
+        gtag('config', 'G-YSXK3LHEYM', {
+            'anonymize_ip': true,
+            'cookie_flags': 'SameSite=None;Secure'
+        });
+        
+        // Function to update consent when user accepts
+        function grantAnalyticsConsent() {
+            gtag('consent', 'update', {
+                'analytics_storage': 'granted'
+            });
+        }
+    </script>
+    
+    <!-- Primary Meta Tags -->
+    <title>AI Image Prompt Generator | Create Perfect Midjourney, DALL-E & Stable Diffusion Prompts</title>
+    <meta name="title" content="AI Image Prompt Generator | Create Perfect Midjourney, DALL-E & Stable Diffusion Prompts">
+    <meta name="description" content="Free AI image prompt generator for Midjourney, DALL-E, Stable Diffusion & Leonardo AI. Master photography prompts with 500+ options for lighting, camera angles, styles, compositions & more. Create stunning AI art today!">
+    <meta name="keywords" content="AI image prompt generator, Midjourney prompts, DALL-E prompts, Stable Diffusion prompts, AI art generator, photography prompts, AI photography, prompt builder, text to image, AI image creation, Leonardo AI, prompt engineering, camera angles, lighting styles, portrait photography, landscape photography">
+    <meta name="author" content="PromptCraft AI">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://promptcraftai.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://promptcraftai.com/">
+    <meta property="og:title" content="AI Image Prompt Generator | Create Perfect Midjourney, DALL-E & Stable Diffusion Prompts">
+    <meta property="og:description" content="Free AI image prompt generator with 500+ options. Master photography prompts for Midjourney, DALL-E, Stable Diffusion & more. Create stunning AI art today!">
+    <meta property="og:image" content="https://promptcraftai.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="PromptCraft AI">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://promptcraftai.com/">
+    <meta name="twitter:title" content="AI Image Prompt Generator | Create Perfect Midjourney, DALL-E & Stable Diffusion Prompts">
+    <meta name="twitter:description" content="Free AI image prompt generator with 500+ options. Master photography prompts for Midjourney, DALL-E, Stable Diffusion & more.">
+    <meta name="twitter:image" content="https://promptcraftai.com/twitter-image.jpg">
+    <meta name="twitter:creator" content="@promptcraftai">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://www.gstatic.com">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#667eea">
+    <meta name="msapplication-TileColor" content="#667eea">
+    
+    <!-- Structured Data - WebApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "PromptCraft AI - AI Image Prompt Generator",
+        "description": "Free AI image prompt generator for Midjourney, DALL-E, Stable Diffusion & Leonardo AI. Create perfect photography prompts with 500+ options.",
+        "url": "https://promptcraftai.com",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "featureList": [
+            "20+ prompt categories",
+            "500+ photography options",
+            "Camera angles and perspectives",
+            "Lighting styles",
+            "Mood and atmosphere settings",
+            "Hair and outfit options",
+            "Quality modifiers",
+            "Ready-to-use prompt gallery"
+        ],
+        "screenshot": "https://promptcraftai.com/screenshot.jpg",
+        "softwareVersion": "1.0",
+        "author": {
+            "@type": "Organization",
+            "name": "PromptCraft AI"
+        }
+    }
+    </script>
+    
+    <!-- Structured Data - FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is an AI image prompt generator?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "An AI image prompt generator is a tool that helps you create detailed, structured text prompts for AI image generation tools like Midjourney, DALL-E, Stable Diffusion, and Leonardo AI. It provides options for camera angles, lighting, styles, moods, and more to help you get better results."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I write better AI image prompts?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Better AI prompts include specific details about: subject description, image type (portrait, landscape), camera angle (eye level, low angle), lighting (golden hour, Rembrandt), mood (dramatic, ethereal), style (cinematic, photorealistic), and quality modifiers (8K, highly detailed). Our generator helps you combine all these elements."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What AI tools work with these prompts?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our prompts work with all major AI image generators including Midjourney, DALL-E 3, Stable Diffusion, Leonardo AI, Adobe Firefly, and other text-to-image AI tools."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is this AI prompt generator free to use?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! PromptCraft AI is completely free to use. You can generate unlimited prompts, copy them, and use them with any AI image generation tool."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Structured Data - BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://promptcraftai.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Prompt Generator",
+                "item": "https://promptcraftai.com/#generator"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Gallery",
+                "item": "https://promptcraftai.com/#gallery"
+            }
+        ]
+    }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+        .card-gradient { background: linear-gradient(145deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); }
+        .btn-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .btn-gradient:hover { background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); }
+        .option-btn.selected, .ref-option.selected { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-color: #667eea; }
+        .scrollbar-thin::-webkit-scrollbar { width: 6px; }
+        .scrollbar-thin::-webkit-scrollbar-track { background: rgba(255,255,255,0.1); border-radius: 3px; }
+        .scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.3); border-radius: 3px; }
+        .glow { box-shadow: 0 0 30px rgba(102, 126, 234, 0.3); }
+        .hero-glow { box-shadow: 0 0 100px rgba(102, 126, 234, 0.4); }
+        .float-animation { animation: float 6s ease-in-out infinite; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        .fade-in { animation: fadeIn 0.5s ease-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .property-card:hover { transform: translateY(-5px); box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2); }
+        .property-card { transition: all 0.3s ease; }
+        .gallery-card:hover { transform: translateY(-8px); box-shadow: 0 20px 50px rgba(102, 126, 234, 0.3); }
+        .gallery-card { transition: all 0.3s ease; }
+        html { scroll-behavior: smooth; }
+        .modal { backdrop-filter: blur(10px); }
+        .image-preview { object-fit: cover; }
+        .prompt-text { 
+            display: -webkit-box; 
+            -webkit-line-clamp: 3; 
+            -webkit-box-orient: vertical; 
+            overflow: hidden; 
+        }
+        .prompt-text.expanded {
+            -webkit-line-clamp: unset;
+        }
+        /* Screen reader only - for accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        .sr-only:focus, .sr-only:active {
+            position: static;
+            width: auto;
+            height: auto;
+            padding: inherit;
+            margin: inherit;
+            overflow: visible;
+            clip: auto;
+            white-space: inherit;
+        }
+        /* FAQ animations */
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary {
+            color: #a78bfa;
+        }
+        /* Cookie banner animation */
+        .cookie-banner {
+            animation: slideUp 0.5s ease-out;
+        }
+        @keyframes slideUp {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        /* Legal page styles */
+        .legal-content h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #a78bfa;
+        }
+        .legal-content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: #c4b5fd;
+        }
+        .legal-content p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+        .legal-content ul {
+            list-style: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .legal-content li {
+            margin-bottom: 0.5rem;
+        }
+        .legal-content a {
+            color: #a78bfa;
+            text-decoration: underline;
+        }
+        .legal-content a:hover {
+            color: #c4b5fd;
+        }
+        /* Range slider styling */
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            background: transparent;
+            cursor: pointer;
+        }
+        input[type="range"]::-webkit-slider-runnable-track {
+            height: 8px;
+            background: linear-gradient(to right, #4f46e5, #7c3aed, #a855f7);
+            border-radius: 4px;
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            margin-top: -6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        }
+        input[type="range"]::-moz-range-track {
+            height: 8px;
+            background: linear-gradient(to right, #4f46e5, #7c3aed, #a855f7);
+            border-radius: 4px;
+        }
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            border: none;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        }
+        /* Reference section highlight */
+        .ref-section-active {
+            border-color: rgba(168, 85, 247, 0.5);
+            background: rgba(139, 92, 246, 0.1);
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen text-white">
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookieConsentBanner" class="fixed bottom-0 left-0 right-0 z-[100] hidden cookie-banner">
+        <div class="bg-gray-900/95 backdrop-blur-md border-t border-white/20 p-4 md:p-6">
+            <div class="container mx-auto max-w-7xl">
+                <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-2xl">🍪</span>
+                            <h3 class="font-semibold text-lg">We Value Your Privacy</h3>
+                        </div>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. 
+                            By clicking "Accept All", you consent to our use of cookies. 
+                            <a href="#" onclick="showPage('privacy'); return false;" class="text-purple-400 hover:text-purple-300 underline">Privacy Policy</a> · 
+                            <a href="#" onclick="showPage('terms'); return false;" class="text-purple-400 hover:text-purple-300 underline">Terms of Service</a>
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <button onclick="acceptAllCookies()" class="btn-gradient px-6 py-2.5 rounded-lg font-semibold text-sm hover:scale-105 transition transform">
+                            Accept All
+                        </button>
+                        <button onclick="acceptEssentialCookies()" class="bg-white/10 border border-white/20 px-6 py-2.5 rounded-lg font-semibold text-sm hover:bg-white/20 transition">
+                            Essential Only
+                        </button>
+                        <button onclick="openCookieSettings()" class="text-gray-400 hover:text-white px-4 py-2.5 text-sm underline">
+                            Customize
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Settings Modal -->
+    <div id="cookieSettingsModal" class="fixed inset-0 z-[110] hidden modal bg-black/70 flex items-center justify-center p-4">
+        <div class="bg-gray-900 rounded-2xl border border-white/20 w-full max-w-xl max-h-[90vh] overflow-hidden">
+            <div class="flex items-center justify-between p-6 border-b border-white/10">
+                <h2 class="text-xl font-bold flex items-center gap-2">🍪 Cookie Preferences</h2>
+                <button onclick="closeCookieSettings()" class="text-gray-400 hover:text-white text-2xl">&times;</button>
+            </div>
+            <div class="p-6 overflow-y-auto max-h-[60vh]">
+                <p class="text-gray-400 mb-6">Manage your cookie preferences below. Essential cookies are required for the website to function properly.</p>
+                
+                <!-- Essential Cookies -->
+                <div class="card-gradient rounded-xl p-4 border border-white/10 mb-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-semibold">Essential Cookies</h3>
+                        <span class="bg-green-600/30 text-green-300 text-xs px-3 py-1 rounded-full">Always Active</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Required for basic website functionality, security, and accessibility. Cannot be disabled.</p>
+                </div>
+                
+                <!-- Analytics Cookies -->
+                <div class="card-gradient rounded-xl p-4 border border-white/10 mb-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-semibold">Analytics Cookies</h3>
+                        <label class="relative inline-flex items-center cursor-pointer">
+                            <input type="checkbox" id="analyticsCookies" class="sr-only peer" checked>
+                            <div class="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-purple-600"></div>
+                        </label>
+                    </div>
+                    <p class="text-gray-400 text-sm">Help us understand how visitors interact with our website. Data is anonymized and used to improve user experience.</p>
+                </div>
+                
+                <!-- Marketing Cookies -->
+                <div class="card-gradient rounded-xl p-4 border border-white/10 mb-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-semibold">Marketing Cookies</h3>
+                        <label class="relative inline-flex items-center cursor-pointer">
+                            <input type="checkbox" id="marketingCookies" class="sr-only peer">
+                            <div class="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-purple-600"></div>
+                        </label>
+                    </div>
+                    <p class="text-gray-400 text-sm">Used to deliver personalized advertisements and measure the effectiveness of ad campaigns.</p>
+                </div>
+            </div>
+            <div class="p-6 border-t border-white/10 flex gap-3">
+                <button onclick="saveCustomCookiePreferences()" class="flex-1 btn-gradient py-3 rounded-lg font-semibold">
+                    Save Preferences
+                </button>
+                <button onclick="closeCookieSettings()" class="px-6 py-3 rounded-lg font-semibold bg-gray-700 hover:bg-gray-600">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-purple-600 text-white px-4 py-2 rounded-lg z-50">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/20 backdrop-blur-md border-b border-white/10" role="navigation" aria-label="Main navigation">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl">
+            <a href="#" onclick="showPage('landing'); return false;" class="flex items-center gap-2 cursor-pointer" aria-label="PromptCraft AI Home">
+                <span class="text-2xl" aria-hidden="true">🎨</span>
+                <span class="font-bold text-xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">PromptCraft AI</span>
+            </a>
+            <div class="flex gap-4 items-center">
+                <a href="#" onclick="showPage('landing'); return false;" class="text-gray-300 hover:text-white transition hidden md:block">Home</a>
+                <a href="#" onclick="showPage('gallery'); return false;" class="text-gray-300 hover:text-white transition hidden md:block">Gallery</a>
+                <a href="#learn" onclick="showPage('landing'); return false;" class="text-gray-300 hover:text-white transition hidden md:block">Learn</a>
+                <button onclick="showPage('generator')" class="btn-gradient px-5 py-2 rounded-lg font-semibold hover:scale-105 transition transform" aria-label="Open Prompt Generator">
+                    Open Generator
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Page Section -->
+    <main id="landingPage" class="min-h-screen pt-20" role="main">
+        <!-- Hero Section -->
+        <header id="main-content" class="container mx-auto px-4 pt-12 pb-20 max-w-7xl">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                        Create <span class="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">Perfect Prompts</span> for AI Image Generation
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        Master the art of AI photography prompts. Our intuitive generator helps you craft detailed, professional prompts for Midjourney, DALL-E, Stable Diffusion, and more.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <button onclick="showPage('generator')" class="btn-gradient px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition transform flex items-center gap-2">
+                            <span>✨</span> Start Creating
+                        </button>
+                        <button onclick="showPage('gallery')" class="bg-white/10 border border-white/20 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/20 transition flex items-center gap-2">
+                            <span>🖼️</span> View Gallery
+                        </button>
+                    </div>
+                    <div class="mt-10 flex items-center gap-6 text-sm text-gray-400">
+                        <div class="flex items-center gap-2">
+                            <span class="text-green-400">✓</span> 20+ Categories
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-green-400">✓</span> 500+ Options
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-green-400">✓</span> Free to Use
+                        </div>
+                    </div>
+                </div>
+                <div class="relative float-animation hidden lg:block">
+                    <div class="card-gradient rounded-2xl p-6 border border-white/20 hero-glow">
+                        <div class="bg-black/30 rounded-lg p-4 mb-4">
+                            <p class="text-gray-300 text-sm leading-relaxed">
+                                <span class="text-purple-400">A beautiful woman with flowing auburn hair</span>, 
+                                <span class="text-pink-400">Portrait, Close-up</span>, 
+                                <span class="text-blue-400">Eye Level, 3/4 View</span>, 
+                                <span class="text-green-400">Golden Hour lighting, Rim Light</span>, 
+                                <span class="text-yellow-400">Dreamy mood, Cinematic style</span>, 
+                                <span class="text-orange-400">Bokeh background</span>, 
+                                <span class="text-cyan-400">85mm Portrait Lens, Shallow DOF f/1.4</span>, 
+                                <span class="text-red-400">8K Resolution, Award Winning</span>
+                            </p>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-600/30 text-purple-300 px-3 py-1 rounded-full text-xs">Portrait</span>
+                            <span class="bg-pink-600/30 text-pink-300 px-3 py-1 rounded-full text-xs">Golden Hour</span>
+                            <span class="bg-blue-600/30 text-blue-300 px-3 py-1 rounded-full text-xs">Cinematic</span>
+                            <span class="bg-green-600/30 text-green-300 px-3 py-1 rounded-full text-xs">85mm Lens</span>
+                            <span class="bg-yellow-600/30 text-yellow-300 px-3 py-1 rounded-full text-xs">8K</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Features Section -->
+        <div id="learn" class="bg-black/20 py-20">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Use a Prompt Generator?</h2>
+                    <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                        AI image generators are only as good as the prompts you give them. Learn how to craft prompts that produce stunning, professional results.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="card-gradient rounded-xl p-6 border border-white/10 text-center">
+                        <div class="text-5xl mb-4">🎯</div>
+                        <h3 class="text-xl font-semibold mb-3">Precision Control</h3>
+                        <p class="text-gray-400">Every element matters. Control camera angles, lighting, mood, and style with precise terminology that AI understands.</p>
+                    </div>
+                    <div class="card-gradient rounded-xl p-6 border border-white/10 text-center">
+                        <div class="text-5xl mb-4">⚡</div>
+                        <h3 class="text-xl font-semibold mb-3">Save Time</h3>
+                        <p class="text-gray-400">No more trial and error. Select from curated options that professional photographers and AI artists use daily.</p>
+                    </div>
+                    <div class="card-gradient rounded-xl p-6 border border-white/10 text-center">
+                        <div class="text-5xl mb-4">📈</div>
+                        <h3 class="text-xl font-semibold mb-3">Better Results</h3>
+                        <p class="text-gray-400">Structured prompts produce consistent, high-quality outputs. Learn the vocabulary that unlocks AI's potential.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Properties Education Section -->
+        <div id="properties" class="py-20">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Understanding Prompt Properties</h2>
+                    <p class="text-gray-400 text-lg max-w-3xl mx-auto">
+                        Each property in your prompt affects the final image. Master these elements to create exactly what you envision.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Image Type -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">📷</span>
+                            <h3 class="text-xl font-semibold">Image Type</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">Defines the overall category and purpose of your image.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Portrait, Landscape, Product Shot, Fashion, Street Photography, Wildlife</p>
+                        </div>
+                        <div class="text-xs text-purple-400">
+                            <strong>Impact:</strong> Sets the fundamental approach and composition expectations
+                        </div>
+                    </div>
+
+                    <!-- Shot Type / Framing -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">🎬</span>
+                            <h3 class="text-xl font-semibold">Shot Type / Framing</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">Determines how much of the subject fills the frame.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Extreme Close-up, Close-up, Medium Shot, Full Body, Wide Shot, Establishing Shot</p>
+                        </div>
+                        <div class="text-xs text-pink-400">
+                            <strong>Impact:</strong> Controls intimacy, detail level, and context visibility
+                        </div>
+                    </div>
+
+                    <!-- Camera Angle -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">📐</span>
+                            <h3 class="text-xl font-semibold">Camera Angle</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">The position of the camera relative to the subject.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Eye Level, High Angle, Low Angle, Bird's Eye, Dutch Angle, POV</p>
+                        </div>
+                        <div class="text-xs text-blue-400">
+                            <strong>Impact:</strong> Affects power dynamics, drama, and psychological impression
+                        </div>
+                    </div>
+
+                    <!-- View / Perspective -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">👁️</span>
+                            <h3 class="text-xl font-semibold">View / Perspective</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">Which side or angle of the subject is shown.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Front View, Side View, 3/4 View, Profile, Back View, Top Down, Isometric</p>
+                        </div>
+                        <div class="text-xs text-green-400">
+                            <strong>Impact:</strong> Determines which features are emphasized or hidden
+                        </div>
+                    </div>
+
+                    <!-- Lighting -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">💡</span>
+                            <h3 class="text-xl font-semibold">Lighting</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">How light falls on your subject - the most crucial element.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Golden Hour, Rembrandt, Split Lighting, Backlit, Studio, Neon, Volumetric</p>
+                        </div>
+                        <div class="text-xs text-cyan-400">
+                            <strong>Impact:</strong> Defines mood, dimension, and emotional tone completely
+                        </div>
+                    </div>
+
+                    <!-- Mood / Atmosphere -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">🎭</span>
+                            <h3 class="text-xl font-semibold">Mood / Atmosphere</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">The emotional feeling and ambiance of the image.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Dreamy, Mysterious, Romantic, Dramatic, Ethereal, Dark & Moody, Epic</p>
+                        </div>
+                        <div class="text-xs text-pink-400">
+                            <strong>Impact:</strong> Sets the emotional response viewers will have
+                        </div>
+                    </div>
+
+                    <!-- Style -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">🎨</span>
+                            <h3 class="text-xl font-semibold">Style</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">The artistic approach and visual treatment.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Photorealistic, Cinematic, Editorial, Fine Art, Vintage, Fantasy, Anime, Film Noir</p>
+                        </div>
+                        <div class="text-xs text-blue-400">
+                            <strong>Impact:</strong> Determines the overall artistic direction and rendering
+                        </div>
+                    </div>
+
+                    <!-- Camera & Lens -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">📸</span>
+                            <h3 class="text-xl font-semibold">Camera & Lens</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">Specific equipment that affects image characteristics.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> Canon EOS R5, Sony A7R IV, 35mm, 85mm Portrait Lens, Wide Angle 24mm, Macro</p>
+                        </div>
+                        <div class="text-xs text-cyan-400">
+                            <strong>Impact:</strong> Affects perspective distortion, compression, and detail
+                        </div>
+                    </div>
+
+                    <!-- Quality Modifiers -->
+                    <div class="property-card card-gradient rounded-xl p-6 border border-white/10">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-3xl">⭐</span>
+                            <h3 class="text-xl font-semibold">Quality Modifiers</h3>
+                        </div>
+                        <p class="text-gray-400 mb-4">Terms that boost overall image quality and detail.</p>
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-sm text-gray-300"><strong>Examples:</strong> 8K Resolution, Ultra HD, Highly Detailed, Sharp Focus, Award Winning, Masterpiece</p>
+                        </div>
+                        <div class="text-xs text-green-400">
+                            <strong>Impact:</strong> Encourages AI to produce higher quality outputs
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="mt-16 text-center">
+                    <div class="card-gradient rounded-2xl p-10 border border-white/20 max-w-3xl mx-auto">
+                        <h3 class="text-2xl md:text-3xl font-bold mb-4">Ready to Create Amazing Prompts?</h3>
+                        <p class="text-gray-400 mb-8">Now that you understand the elements, use our generator to craft the perfect prompt for your next AI masterpiece.</p>
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <button onclick="showPage('generator')" class="btn-gradient px-10 py-4 rounded-xl font-bold text-lg hover:scale-105 transition transform inline-flex items-center gap-3">
+                                <span class="text-2xl">🚀</span> Launch Prompt Generator
+                            </button>
+                            <button onclick="showPage('gallery')" class="bg-white/10 border border-white/20 px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/20 transition inline-flex items-center gap-3">
+                                <span class="text-2xl">🖼️</span> Browse Gallery
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section for SEO -->
+        <section id="faq" class="py-20 bg-black/20" aria-labelledby="faq-heading">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div class="text-center mb-12">
+                    <h2 id="faq-heading" class="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                    <p class="text-gray-400 text-lg">Everything you need to know about AI image prompts</p>
+                </div>
+                
+                <div class="space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <details class="card-gradient rounded-xl border border-white/10 group">
+                        <summary class="p-6 cursor-pointer flex items-center justify-between font-semibold text-lg hover:text-purple-400 transition list-none">
+                            <span>What is an AI image prompt generator?</span>
+                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-gray-400">
+                            <p>An AI image prompt generator is a tool that helps you create detailed, structured text prompts for AI image generation tools like <strong>Midjourney</strong>, <strong>DALL-E</strong>, <strong>Stable Diffusion</strong>, and <strong>Leonardo AI</strong>. Instead of guessing what terms to use, our generator provides curated options for camera angles, lighting styles, moods, compositions, and quality modifiers that AI models understand and respond to effectively.</p>
+                        </div>
+                    </details>
+                    
+                    <!-- FAQ Item 2 -->
+                    <details class="card-gradient rounded-xl border border-white/10 group">
+                        <summary class="p-6 cursor-pointer flex items-center justify-between font-semibold text-lg hover:text-purple-400 transition list-none">
+                            <span>How do I write better AI image prompts?</span>
+                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-gray-400">
+                            <p class="mb-3">Better AI prompts follow a structured approach. Include these key elements:</p>
+                            <ul class="list-disc list-inside space-y-2 ml-4">
+                                <li><strong>Subject Description:</strong> Who or what is in the image</li>
+                                <li><strong>Image Type:</strong> Portrait, landscape, product shot, etc.</li>
+                                <li><strong>Camera Settings:</strong> Angle (eye level, low angle), lens (85mm, wide angle)</li>
+                                <li><strong>Lighting:</strong> Golden hour, Rembrandt lighting, neon, volumetric</li>
+                                <li><strong>Mood & Style:</strong> Dramatic, ethereal, cinematic, photorealistic</li>
+                                <li><strong>Quality Modifiers:</strong> 8K, highly detailed, sharp focus, masterpiece</li>
+                            </ul>
+                        </div>
+                    </details>
+                    
+                    <!-- FAQ Item 3 -->
+                    <details class="card-gradient rounded-xl border border-white/10 group">
+                        <summary class="p-6 cursor-pointer flex items-center justify-between font-semibold text-lg hover:text-purple-400 transition list-none">
+                            <span>What AI tools work with these prompts?</span>
+                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-gray-400">
+                            <p>Our prompts are designed to work with all major AI image generators:</p>
+                            <ul class="list-disc list-inside mt-3 space-y-1 ml-4">
+                                <li><strong>Midjourney</strong> - Discord-based AI art generator</li>
+                                <li><strong>DALL-E 3</strong> - OpenAI's text-to-image model</li>
+                                <li><strong>Stable Diffusion</strong> - Open-source image generation</li>
+                                <li><strong>Leonardo AI</strong> - Professional AI image platform</li>
+                                <li><strong>Adobe Firefly</strong> - Adobe's generative AI</li>
+                                <li><strong>Playground AI, NightCafe, and more</strong></li>
+                            </ul>
+                        </div>
+                    </details>
+                    
+                    <!-- FAQ Item 4 -->
+                    <details class="card-gradient rounded-xl border border-white/10 group">
+                        <summary class="p-6 cursor-pointer flex items-center justify-between font-semibold text-lg hover:text-purple-400 transition list-none">
+                            <span>Is this AI prompt generator free to use?</span>
+                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-gray-400">
+                            <p>Yes! <strong>PromptCraft AI is completely free</strong> to use with no sign-up required. You can generate unlimited prompts, copy them instantly, and use them with any AI image generation tool. We also provide a gallery of ready-to-use prompts with example images for inspiration.</p>
+                        </div>
+                    </details>
+                    
+                    <!-- FAQ Item 5 -->
+                    <details class="card-gradient rounded-xl border border-white/10 group">
+                        <summary class="p-6 cursor-pointer flex items-center justify-between font-semibold text-lg hover:text-purple-400 transition list-none">
+                            <span>What makes a good photography prompt for AI?</span>
+                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-gray-400">
+                            <p class="mb-3">Professional photography prompts for AI should include technical photography terms that the AI has learned from real photographs:</p>
+                            <ul class="list-disc list-inside space-y-2 ml-4">
+                                <li><strong>Specific lens types:</strong> "85mm portrait lens", "24mm wide angle"</li>
+                                <li><strong>Aperture/DOF:</strong> "shallow depth of field f/1.4", "bokeh effect"</li>
+                                <li><strong>Professional lighting:</strong> "Rembrandt lighting", "rim light", "golden hour"</li>
+                                <li><strong>Camera brands:</strong> "shot on Canon EOS R5", "Sony A7R IV"</li>
+                                <li><strong>Composition rules:</strong> "rule of thirds", "golden ratio"</li>
+                            </ul>
+                        </div>
+                    </details>
+                    
+                    <!-- FAQ Item 6 -->
+                    <details class="card-gradient rounded-xl border border-white/10 group">
+                        <summary class="p-6 cursor-pointer flex items-center justify-between font-semibold text-lg hover:text-purple-400 transition list-none">
+                            <span>How do lighting and mood affect AI images?</span>
+                            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+                        </summary>
+                        <div class="px-6 pb-6 text-gray-400">
+                            <p class="mb-3">Lighting and mood are perhaps the most impactful elements in your prompt:</p>
+                            <ul class="list-disc list-inside space-y-2 ml-4">
+                                <li><strong>Golden Hour:</strong> Warm, soft, flattering light perfect for portraits</li>
+                                <li><strong>Blue Hour:</strong> Cool, mysterious twilight atmosphere</li>
+                                <li><strong>Rembrandt Lighting:</strong> Dramatic studio look with triangle shadow</li>
+                                <li><strong>Neon/Cyberpunk:</strong> Vibrant, futuristic city vibes</li>
+                                <li><strong>Volumetric Lighting:</strong> Atmospheric rays and fog effects</li>
+                                <li><strong>High Key vs Low Key:</strong> Bright and airy vs dark and moody</li>
+                            </ul>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer for Landing Page -->
+        <footer class="bg-black/30 py-12 border-t border-white/10" role="contentinfo">
+            <div class="container mx-auto px-4 max-w-7xl">
+                <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+                    <!-- Brand -->
+                    <div class="md:col-span-2 lg:col-span-2">
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="text-2xl">🎨</span>
+                            <span class="font-bold text-xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">PromptCraft AI</span>
+                        </div>
+                        <p class="text-gray-400 mb-4">The ultimate free AI image prompt generator. Create professional prompts for Midjourney, DALL-E, Stable Diffusion, and more with 500+ curated options.</p>
+                        <p class="text-gray-500 text-sm">© 2024 PromptCraft AI. Free to use for everyone.</p>
+                    </div>
+                    
+                    <!-- Quick Links -->
+                    <div>
+                        <h3 class="font-semibold mb-4 text-white">Quick Links</h3>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="#" onclick="showPage('generator'); return false;" class="hover:text-purple-400 transition">Prompt Generator</a></li>
+                            <li><a href="#" onclick="showPage('gallery'); return false;" class="hover:text-purple-400 transition">Prompt Gallery</a></li>
+                            <li><a href="#learn" class="hover:text-purple-400 transition">Learn Prompting</a></li>
+                            <li><a href="#faq" class="hover:text-purple-400 transition">FAQ</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Legal -->
+                    <div>
+                        <h3 class="font-semibold mb-4 text-white">Legal</h3>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="#" onclick="showPage('privacy'); return false;" class="hover:text-purple-400 transition">Privacy Policy</a></li>
+                            <li><a href="#" onclick="showPage('terms'); return false;" class="hover:text-purple-400 transition">Terms of Service</a></li>
+                            <li><a href="#" onclick="openCookieSettings(); return false;" class="hover:text-purple-400 transition">Cookie Preferences</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Supported Tools -->
+                    <div>
+                        <h3 class="font-semibold mb-4 text-white">Works With</h3>
+                        <ul class="space-y-2 text-gray-400">
+                            <li>Midjourney</li>
+                            <li>DALL-E 3</li>
+                            <li>Stable Diffusion</li>
+                            <li>Leonardo AI</li>
+                            <li>Adobe Firefly</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Bottom Bar -->
+                <div class="border-t border-white/10 pt-8 text-center">
+                    <p class="text-gray-500 text-sm">Made with ❤️ for AI artists and photographers worldwide</p>
+                    <p class="text-gray-600 text-xs mt-2">Keywords: AI prompt generator, Midjourney prompts, DALL-E prompts, Stable Diffusion prompts, AI art, text to image, photography prompts</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Gallery Page Section -->
+    <section id="galleryPage" class="min-h-screen pt-24 hidden">
+        <div class="container mx-auto px-4 py-8 max-w-7xl">
+            
+            <!-- Firebase Setup Banner (shows when not configured or has errors) -->
+            <div id="firebaseSetupBanner" class="hidden mb-6 bg-yellow-600/20 border border-yellow-500/50 rounded-xl p-4">
+                <div class="flex items-start gap-3">
+                    <span class="text-2xl">⚠️</span>
+                    <div class="flex-1">
+                        <h3 class="font-semibold text-yellow-300 mb-1">Firebase Setup Required</h3>
+                        <p class="text-yellow-200/80 text-sm mb-2">Please complete the Firebase setup in your Firebase Console:</p>
+                        
+                        <!-- Step 1: Authentication -->
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-xs text-gray-400 mb-1">🔐 <strong>Step 1: Enable Authentication</strong> (Firebase Console → Authentication → Sign-in method):</p>
+                            <ol class="text-xs text-blue-300 list-decimal list-inside space-y-1">
+                                <li>Go to Authentication → Sign-in method</li>
+                                <li>Enable "Email/Password" provider</li>
+                                <li>Go to Users tab → Add user</li>
+                                <li>Create your admin account (email + password)</li>
+                            </ol>
+                        </div>
+                        
+                        <!-- Step 2: Firestore Rules -->
+                        <div class="bg-black/30 rounded-lg p-3 mb-3">
+                            <p class="text-xs text-gray-400 mb-1">📝 <strong>Step 2: Firestore Rules</strong> (Firebase Console → Firestore Database → Rules):</p>
+                            <pre class="text-xs text-green-300 overflow-x-auto">rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /prompts/{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}</pre>
+                            <p class="text-xs text-gray-500 mt-1">✅ This allows anyone to read, but only authenticated admins can write.</p>
+                        </div>
+                        
+                        <p class="text-xs text-yellow-200/60 mb-2">💡 Images are stored via external URLs (PostImages, ImgBB, Unsplash) - no Firebase Storage needed!</p>
+                        
+                        <div class="flex gap-2">
+                            <button onclick="location.reload()" class="text-xs bg-green-600/50 hover:bg-green-600/70 px-3 py-1 rounded">
+                                🔄 Retry Connection
+                            </button>
+                            <button onclick="this.parentElement.parentElement.parentElement.classList.add('hidden')" class="text-xs bg-yellow-600/50 hover:bg-yellow-600/70 px-3 py-1 rounded">
+                                Dismiss
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loadingIndicator" class="hidden fixed inset-0 bg-black/50 z-40 flex items-center justify-center">
+                <div class="bg-gray-800 rounded-xl p-6 flex items-center gap-4">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-500"></div>
+                    <span>Loading...</span>
+                </div>
+            </div>
+
+            <!-- Header -->
+            <div class="text-center mb-10">
+                <h1 class="text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
+                    🖼️ Prompt Gallery
+                </h1>
+                <p class="text-gray-400 text-lg">Ready-to-use prompts with generated images. Click to copy and create your own!</p>
+                
+                <!-- Storage Status -->
+                <div id="storageStatus" class="mt-2 text-sm">
+                    <span class="text-gray-500">Storage: </span>
+                    <span id="storageType" class="text-purple-400">Checking...</span>
+                </div>
+                
+                <!-- Admin Toggle -->
+                <button onclick="toggleAdminPanel()" class="mt-4 text-sm text-gray-500 hover:text-purple-400 transition">
+                    🔐 Admin Access
+                </button>
+            </div>
+
+            <!-- Filter Tags -->
+            <div class="flex flex-wrap justify-center gap-2 mb-8" id="filterTags">
+                <button class="filter-btn px-4 py-2 rounded-full border border-white/20 bg-purple-600/50 text-white text-sm" data-filter="all" onclick="filterGallery('all')">All</button>
+                <button class="filter-btn px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 text-gray-300 text-sm" data-filter="portrait" onclick="filterGallery('portrait')">Portrait</button>
+                <button class="filter-btn px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 text-gray-300 text-sm" data-filter="landscape" onclick="filterGallery('landscape')">Landscape</button>
+                <button class="filter-btn px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 text-gray-300 text-sm" data-filter="fantasy" onclick="filterGallery('fantasy')">Fantasy</button>
+                <button class="filter-btn px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 text-gray-300 text-sm" data-filter="cinematic" onclick="filterGallery('cinematic')">Cinematic</button>
+                <button class="filter-btn px-4 py-2 rounded-full border border-white/20 hover:bg-white/10 text-gray-300 text-sm" data-filter="scifi" onclick="filterGallery('scifi')">Sci-Fi</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="galleryGrid">
+                <!-- Cards will be dynamically loaded -->
+            </div>
+
+            <!-- Empty State -->
+            <div id="emptyGallery" class="hidden text-center py-20">
+                <div class="text-6xl mb-4">🖼️</div>
+                <h3 class="text-xl font-semibold mb-2">No prompts in gallery yet</h3>
+                <p class="text-gray-400 mb-6">Be the first to add some amazing prompts!</p>
+                <button onclick="toggleAdminPanel()" class="btn-gradient px-6 py-3 rounded-lg font-semibold">
+                    Add Your First Prompt
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Panel Modal -->
+    <div id="adminModal" class="fixed inset-0 z-50 hidden modal bg-black/70 flex items-center justify-center p-4">
+        <div class="bg-gray-900 rounded-2xl border border-white/20 w-full max-w-4xl max-h-[90vh] overflow-hidden">
+            <!-- Admin Header -->
+            <div class="flex items-center justify-between p-6 border-b border-white/10">
+                <h2 class="text-2xl font-bold">🔐 Admin Panel</h2>
+                <button onclick="closeAdminPanel()" class="text-gray-400 hover:text-white text-2xl">&times;</button>
+            </div>
+
+            <!-- Admin Content -->
+            <div class="p-6 overflow-y-auto max-h-[calc(90vh-80px)]">
+                <!-- Login Form (shown when not authenticated) -->
+                <div id="adminLogin" class="max-w-md mx-auto">
+                    <div class="card-gradient rounded-xl p-6 border border-white/10">
+                        <h3 class="text-xl font-semibold mb-4 text-center">🔐 Admin Login</h3>
+                        <p class="text-gray-400 text-sm text-center mb-4">Sign in with your admin credentials</p>
+                        
+                        <div id="loginError" class="hidden bg-red-600/20 border border-red-500/50 text-red-300 text-sm p-3 rounded-lg mb-4"></div>
+                        
+                        <input type="email" id="adminEmail" placeholder="Email address" 
+                            class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 mb-3 focus:outline-none focus:border-purple-500">
+                        <input type="password" id="adminPassword" placeholder="Password" 
+                            class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 mb-4 focus:outline-none focus:border-purple-500"
+                            onkeypress="if(event.key==='Enter')loginAdmin()">
+                        
+                        <button onclick="loginAdmin()" id="loginBtn" class="w-full btn-gradient py-3 rounded-lg font-semibold flex items-center justify-center gap-2">
+                            <span>🔓</span> Sign In
+                        </button>
+                        
+                        <div class="mt-4 pt-4 border-t border-white/10">
+                            <button onclick="toggleForgotPassword()" class="text-sm text-purple-400 hover:text-purple-300 w-full text-center">
+                                Forgot password?
+                            </button>
+                        </div>
+                        
+                        <!-- Forgot Password Form -->
+                        <div id="forgotPasswordForm" class="hidden mt-4 pt-4 border-t border-white/10">
+                            <p class="text-gray-400 text-sm mb-3">Enter your email to receive a password reset link:</p>
+                            <input type="email" id="resetEmail" placeholder="Email address" 
+                                class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 mb-3 focus:outline-none focus:border-purple-500">
+                            <button onclick="sendPasswordReset()" class="w-full bg-purple-600/50 hover:bg-purple-600/70 py-2 rounded-lg font-semibold text-sm">
+                                Send Reset Link
+                            </button>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-blue-600/20 border border-blue-500/30 rounded-lg">
+                            <p class="text-xs text-blue-300">
+                                <strong>🔒 Secure Authentication</strong><br>
+                                Admin access is protected by Firebase Authentication. 
+                                Contact the site owner if you need admin access.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Admin Dashboard (shown when authenticated) -->
+                <div id="adminDashboard" class="hidden">
+                    <!-- Admin User Info Bar -->
+                    <div class="bg-green-600/20 border border-green-500/30 rounded-xl p-4 mb-6 flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="text-2xl">👤</span>
+                            <div>
+                                <p class="text-green-300 font-medium">Logged in as Admin</p>
+                                <p id="adminUserEmail" class="text-green-400/70 text-sm"></p>
+                            </div>
+                        </div>
+                        <button onclick="logoutAdmin()" class="bg-red-600/50 hover:bg-red-600/70 px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
+                            <span>🚪</span> Logout
+                        </button>
+                    </div>
+                    
+                    <!-- Add New Card Form -->
+                    <div class="card-gradient rounded-xl p-6 border border-white/10 mb-6">
+                        <h3 class="text-xl font-semibold mb-4" id="formTitle">➕ Add New Prompt</h3>
+                        <form id="promptForm" onsubmit="savePromptCard(event)">
+                            <input type="hidden" id="editingId">
+                            
+                            <div class="grid md:grid-cols-2 gap-4 mb-4">
+                                <div>
+                                    <label class="block text-sm text-gray-400 mb-2">Title *</label>
+                                    <input type="text" id="cardTitle" required placeholder="e.g., Mystical Forest Portrait"
+                                        class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500">
+                                </div>
+                                <div>
+                                    <label class="block text-sm text-gray-400 mb-2">Category *</label>
+                                    <select id="cardCategory" required class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500">
+                                        <option value="">Select category</option>
+                                        <option value="portrait">Portrait</option>
+                                        <option value="landscape">Landscape</option>
+                                        <option value="fantasy">Fantasy</option>
+                                        <option value="cinematic">Cinematic</option>
+                                        <option value="scifi">Sci-Fi</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-sm text-gray-400 mb-2">Prompt *</label>
+                                <textarea id="cardPrompt" required rows="4" placeholder="Enter the full AI prompt..."
+                                    class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500"></textarea>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-sm text-gray-400 mb-2">Image URL *</label>
+                                
+                                <!-- URL Input -->
+                                <div>
+                                    <input type="url" id="cardImageUrl" placeholder="https://example.com/image.jpg" onchange="previewImageUrl(event)"
+                                        class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500">
+                                </div>
+                                
+                                <!-- Preview -->
+                                <div id="imagePreviewContainer" class="hidden mt-3">
+                                    <img id="imagePreview" class="w-24 h-24 object-cover rounded-lg border border-white/20">
+                                </div>
+                                
+                                <!-- Free Image Hosting Services -->
+                                <div class="mt-3 p-3 bg-black/20 rounded-lg">
+                                    <p class="text-xs text-gray-400 mb-2">📷 <strong>Free Image Hosting Services:</strong></p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <a href="https://postimages.org/" target="_blank" class="text-xs bg-blue-600/30 hover:bg-blue-600/50 text-blue-300 px-2 py-1 rounded">PostImages</a>
+                                        <a href="https://imgbb.com/" target="_blank" class="text-xs bg-green-600/30 hover:bg-green-600/50 text-green-300 px-2 py-1 rounded">ImgBB</a>
+                                        <a href="https://cloudinary.com/" target="_blank" class="text-xs bg-purple-600/30 hover:bg-purple-600/50 text-purple-300 px-2 py-1 rounded">Cloudinary</a>
+                                        <a href="https://imgur.com/" target="_blank" class="text-xs bg-orange-600/30 hover:bg-orange-600/50 text-orange-300 px-2 py-1 rounded">Imgur</a>
+                                        <a href="https://unsplash.com/" target="_blank" class="text-xs bg-pink-600/30 hover:bg-pink-600/50 text-pink-300 px-2 py-1 rounded">Unsplash</a>
+                                    </div>
+                                    <p class="text-xs text-gray-500 mt-2">Upload your image to any service above, then paste the direct image URL here.</p>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-sm text-gray-400 mb-2">Tags (comma separated)</label>
+                                <input type="text" id="cardTags" placeholder="e.g., portrait, golden hour, dramatic"
+                                    class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500">
+                            </div>
+
+                            <div class="flex gap-3">
+                                <button type="submit" class="flex-1 btn-gradient py-3 rounded-lg font-semibold">
+                                    💾 Save Prompt
+                                </button>
+                                <button type="button" onclick="resetForm()" class="px-6 py-3 rounded-lg font-semibold bg-gray-700 hover:bg-gray-600">
+                                    Cancel
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Existing Cards List -->
+                    <div class="card-gradient rounded-xl p-6 border border-white/10">
+                        <h3 class="text-xl font-semibold mb-4">📋 Manage Prompts</h3>
+                        <div id="adminCardsList" class="space-y-3">
+                            <!-- Cards will be listed here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- View Prompt Modal -->
+    <div id="viewPromptModal" class="fixed inset-0 z-50 hidden modal bg-black/70 flex items-center justify-center p-4">
+        <div class="bg-gray-900 rounded-2xl border border-white/20 w-full max-w-3xl max-h-[90vh] overflow-hidden">
+            <div class="relative">
+                <img id="viewModalImage" class="w-full h-64 md:h-80 object-cover">
+                <button onclick="closeViewModal()" class="absolute top-4 right-4 bg-black/50 hover:bg-black/70 rounded-full w-10 h-10 flex items-center justify-center text-white text-xl">&times;</button>
+            </div>
+            <div class="p-6">
+                <h3 id="viewModalTitle" class="text-2xl font-bold mb-2"></h3>
+                <div class="flex flex-wrap gap-2 mb-4" id="viewModalTags"></div>
+                <div class="bg-black/30 rounded-lg p-4 mb-4">
+                    <p id="viewModalPrompt" class="text-gray-300 leading-relaxed"></p>
+                </div>
+                <button onclick="copyGalleryPrompt()" class="w-full btn-gradient py-3 rounded-lg font-semibold flex items-center justify-center gap-2">
+                    <span>📋</span> Copy Prompt
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Generator Section -->
+    <section id="generatorPage" class="min-h-screen pt-24 hidden">
+        <div class="container mx-auto px-4 py-8 max-w-7xl">
+            <!-- Header -->
+            <header class="text-center mb-10">
+                <h1 class="text-4xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
+                    🎨 AI Image Prompt Generator
+                </h1>
+                <p class="text-gray-400 text-lg">Create perfect prompts for AI image generation & photography</p>
+            </header>
+
+            <!-- Main Content -->
+            <div class="grid lg:grid-cols-3 gap-6">
+                <!-- Left Column - Options -->
+                <div class="lg:col-span-2 space-y-4 max-h-[75vh] overflow-y-auto scrollbar-thin pr-2">
+                    
+                    <!-- Subject -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">👤 Subject</h3>
+                        <input type="text" id="subject" placeholder="e.g., A young woman with curly red hair, a majestic lion, futuristic cityscape..." 
+                            class="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-500 placeholder-gray-500">
+                    </div>
+
+                    <!-- Image Type -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">📷 Image Type</h3>
+                        <div class="flex flex-wrap gap-2" id="imageType">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Portrait">Portrait</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Landscape">Landscape</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Product Shot">Product Shot</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Fashion">Fashion</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Street Photography">Street Photography</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Wildlife">Wildlife</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Architecture">Architecture</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Food Photography">Food Photography</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Abstract">Abstract</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Macro">Macro</button>
+                        </div>
+                    </div>
+
+                    <!-- Shot Type / Framing -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🎬 Shot Type / Framing</h3>
+                        <div class="flex flex-wrap gap-2" id="shotType">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Extreme Close-up">Extreme Close-up</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Close-up">Close-up</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Medium Close-up">Medium Close-up</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Medium Shot">Medium Shot</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Cowboy Shot">Cowboy Shot</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Full Body Shot">Full Body Shot</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Wide Shot">Wide Shot</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Extreme Wide Shot">Extreme Wide Shot</button>
+                        </div>
+                    </div>
+
+                    <!-- Camera Angle -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">📐 Camera Angle</h3>
+                        <div class="flex flex-wrap gap-2" id="cameraAngle">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Eye Level">Eye Level</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="High Angle">High Angle</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Low Angle">Low Angle</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Bird's Eye View">Bird's Eye View</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Worm's Eye View">Worm's Eye View</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Dutch Angle">Dutch Angle</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Over the Shoulder">Over the Shoulder</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="POV">POV</button>
+                        </div>
+                    </div>
+
+                    <!-- View / Perspective -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">👁️ View / Perspective</h3>
+                        <div class="flex flex-wrap gap-2" id="view">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Front View">Front View</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Side View">Side View</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Back View">Back View</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="3/4 View">3/4 View</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Profile View">Profile View</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Top Down">Top Down</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Isometric">Isometric</button>
+                        </div>
+                    </div>
+
+                    <!-- Subject Position -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🎯 Subject Position</h3>
+                        <div class="flex flex-wrap gap-2" id="subjectPosition">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Centered">Centered</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Left Third">Left Third</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Right Third">Right Third</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Golden Ratio">Golden Ratio</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Leading Lines">Leading Lines</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Symmetrical">Symmetrical</button>
+                        </div>
+                    </div>
+
+                    <!-- Composition Rules -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">📏 Composition Rules</h3>
+                        <div class="flex flex-wrap gap-2" id="composition">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Rule of Thirds">Rule of Thirds</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Golden Ratio">Golden Ratio</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Fibonacci Spiral">Fibonacci Spiral</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Symmetry">Symmetry</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Frame within Frame">Frame within Frame</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Negative Space">Negative Space</button>
+                        </div>
+                    </div>
+
+                    <!-- Lighting -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">💡 Lighting</h3>
+                        <div class="flex flex-wrap gap-2" id="lighting">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Natural Light">Natural Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Golden Hour">Golden Hour</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Blue Hour">Blue Hour</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Soft Light">Soft Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Hard Light">Hard Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Rembrandt Lighting">Rembrandt Lighting</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Split Lighting">Split Lighting</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Backlit">Backlit</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Silhouette">Silhouette</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Studio Lighting">Studio Lighting</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Neon Lighting">Neon Lighting</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Volumetric Lighting">Volumetric Lighting</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="High Key">High Key</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Low Key">Low Key</button>
+                        </div>
+                    </div>
+
+                    <!-- Rim Lighting -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">✨ Rim Lighting</h3>
+                        <div class="flex flex-wrap gap-2" id="rimLighting">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Rim Light">Rim Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Hair Light">Hair Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Edge Lighting">Edge Lighting</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Golden Rim Light">Golden Rim Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Blue Rim Light">Blue Rim Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Neon Rim Light">Neon Rim Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Double Rim Light">Double Rim Light</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Glowing Edges">Glowing Edges</button>
+                        </div>
+                    </div>
+
+                    <!-- Mood / Atmosphere -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🎭 Mood / Atmosphere</h3>
+                        <div class="flex flex-wrap gap-2" id="mood">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Dreamy">Dreamy</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Mysterious">Mysterious</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Romantic">Romantic</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Dramatic">Dramatic</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Serene">Serene</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Ethereal">Ethereal</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Dark & Moody">Dark & Moody</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Epic">Epic</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Nostalgic">Nostalgic</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Whimsical">Whimsical</button>
+                        </div>
+                    </div>
+
+                    <!-- Style -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🎨 Style</h3>
+                        <div class="flex flex-wrap gap-2" id="style">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Photorealistic">Photorealistic</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Cinematic">Cinematic</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Editorial">Editorial</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Fine Art">Fine Art</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Vintage">Vintage</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Film Noir">Film Noir</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Fantasy">Fantasy</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Sci-Fi">Sci-Fi</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Anime">Anime</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Hyperrealistic">Hyperrealistic</button>
+                        </div>
+                    </div>
+
+                    <!-- Women's Hairstyles -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">💇‍♀️ Women's Hairstyles</h3>
+                        <div class="flex flex-wrap gap-2" id="womenHair">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Long Flowing Hair">Long Flowing Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Curly Hair">Curly Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Beach Waves">Beach Waves</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Pixie Cut">Pixie Cut</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Bob Cut">Bob Cut</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Bangs">Bangs</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Ponytail">Ponytail</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Messy Bun">Messy Bun</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Elegant Updo">Elegant Updo</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Braided Hair">Braided Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Afro">Afro</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Space Buns">Space Buns</button>
+                        </div>
+                    </div>
+
+                    <!-- Men's Hairstyles -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">💇‍♂️ Men's Hairstyles</h3>
+                        <div class="flex flex-wrap gap-2" id="menHair">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Short Cropped">Short Cropped</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Buzz Cut">Buzz Cut</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Fade Haircut">Fade Haircut</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Undercut">Undercut</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Pompadour">Pompadour</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Slicked Back">Slicked Back</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Man Bun">Man Bun</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Long Hair">Long Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Full Beard">Full Beard</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Stubble">Stubble</button>
+                        </div>
+                    </div>
+
+                    <!-- Hair Colors -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🎨 Hair Colors</h3>
+                        <div class="flex flex-wrap gap-2" id="hairColor">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Black Hair">Black Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Brown Hair">Brown Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Auburn Hair">Auburn Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Red Hair">Red Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Blonde Hair">Blonde Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Platinum Blonde">Platinum Blonde</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Silver Hair">Silver Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Blue Hair">Blue Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Pink Hair">Pink Hair</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Rainbow Hair">Rainbow Hair</button>
+                        </div>
+                    </div>
+
+                    <!-- Outfits -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">👗 Outfits</h3>
+                        <div class="flex flex-wrap gap-2" id="outfit">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Casual Wear">Casual Wear</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Formal Attire">Formal Attire</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Evening Gown">Evening Gown</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Streetwear">Streetwear</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Victorian">Victorian</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Cyberpunk">Cyberpunk</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Fantasy Armor">Fantasy Armor</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Haute Couture">Haute Couture</button>
+                        </div>
+                    </div>
+
+                    <!-- Background -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🏞️ Background</h3>
+                        <div class="flex flex-wrap gap-2" id="background">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Studio Backdrop">Studio Backdrop</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Urban Street">Urban Street</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Nature Forest">Nature Forest</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Beach">Beach</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Mountain">Mountain</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Futuristic City">Futuristic City</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Space">Space</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Bokeh Background">Bokeh Background</button>
+                        </div>
+                    </div>
+
+                    <!-- Time of Day -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🌅 Time of Day</h3>
+                        <div class="flex flex-wrap gap-2" id="timeOfDay">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Dawn">Dawn</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Morning">Morning</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Golden Hour">Golden Hour</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Sunset">Sunset</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Dusk">Dusk</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Night">Night</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Midnight">Midnight</button>
+                        </div>
+                    </div>
+
+                    <!-- Weather -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🌤️ Weather</h3>
+                        <div class="flex flex-wrap gap-2" id="weather">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Sunny">Sunny</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Cloudy">Cloudy</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Rainy">Rainy</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Snowy">Snowy</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Foggy">Foggy</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Stormy">Stormy</button>
+                        </div>
+                    </div>
+
+                    <!-- Camera & Lens -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">📸 Camera & Lens</h3>
+                        <div class="flex flex-wrap gap-2" id="camera">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Canon EOS R5">Canon EOS R5</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Sony A7R IV">Sony A7R IV</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="35mm Lens">35mm Lens</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="50mm Lens">50mm Lens</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="85mm Portrait Lens">85mm Portrait Lens</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Wide Angle 24mm">Wide Angle 24mm</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Macro Lens">Macro Lens</button>
+                        </div>
+                    </div>
+
+                    <!-- Depth of Field -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🔍 Depth of Field</h3>
+                        <div class="flex flex-wrap gap-2" id="dof">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Shallow DOF f/1.4">Shallow DOF f/1.4</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Medium DOF f/5.6">Medium DOF f/5.6</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Deep DOF f/11">Deep DOF f/11</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Bokeh Effect">Bokeh Effect</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Tack Sharp">Tack Sharp</button>
+                        </div>
+                    </div>
+
+                    <!-- Color Grading -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">🎨 Color Grading</h3>
+                        <div class="flex flex-wrap gap-2" id="colorGrading">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Vibrant Colors">Vibrant Colors</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Muted Tones">Muted Tones</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Black and White">Black and White</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Warm Tones">Warm Tones</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Cool Tones">Cool Tones</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Teal and Orange">Teal and Orange</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Film Emulation">Film Emulation</button>
+                        </div>
+                    </div>
+
+                    <!-- Quality Modifiers -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">⭐ Quality Modifiers</h3>
+                        <div class="flex flex-wrap gap-2" id="quality">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="8K Resolution">8K Resolution</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Ultra HD">Ultra HD</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Highly Detailed">Highly Detailed</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Sharp Focus">Sharp Focus</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Professional Photography">Professional Photography</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Award Winning">Award Winning</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Masterpiece">Masterpiece</button>
+                        </div>
+                    </div>
+
+                    <!-- Aspect Ratio -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10">
+                        <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">📐 Aspect Ratio</h3>
+                        <div class="flex flex-wrap gap-2" id="aspectRatio">
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="1:1 Square">1:1 Square</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="4:3">4:3</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="16:9 Widescreen">16:9 Widescreen</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="9:16 Vertical">9:16 Vertical</button>
+                            <button class="option-btn px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="21:9 Ultrawide">21:9 Ultrawide</button>
+                        </div>
+                    </div>
+
+                    <!-- Reference Image Section -->
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-purple-500/30 bg-purple-900/20">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-lg font-semibold flex items-center gap-2">🖼️ Use Reference Image</h3>
+                            <label class="relative inline-flex items-center cursor-pointer">
+                                <input type="checkbox" id="useReferenceImage" class="sr-only peer" onchange="toggleReferenceOptions()">
+                                <div class="w-11 h-6 bg-gray-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-purple-600"></div>
+                            </label>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">Enable to add reference image parameters for AI tools like Midjourney, Leonardo AI, and Stable Diffusion.</p>
+                        
+                        <!-- Reference Options (hidden by default) -->
+                        <div id="referenceOptions" class="hidden space-y-4">
+                            
+                            <!-- Reference Type -->
+                            <div>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Reference Type</label>
+                                <div class="flex flex-wrap gap-2" id="referenceType">
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Character Reference" data-syntax="--cref [URL]">🧑 Character/Face</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Style Reference" data-syntax="--sref [URL]">🎨 Style</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Image Reference" data-syntax="[URL]">🖼️ Image Prompt</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Pose Reference" data-syntax="--cref [URL] with pose">🕺 Pose</button>
+                                </div>
+                            </div>
+
+                            <!-- Face/Character Options -->
+                            <div id="faceOptions" class="hidden">
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Face/Character Preservation</label>
+                                <div class="flex flex-wrap gap-2" id="facePreservation">
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Preserve exact face">👤 Exact Face</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Preserve face features">👥 Face Features</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Preserve identity">🪪 Identity Only</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Similar looking person">👫 Similar Look</button>
+                                </div>
+                            </div>
+
+                            <!-- Style Options -->
+                            <div id="styleRefOptions" class="hidden">
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Style Transfer Options</label>
+                                <div class="flex flex-wrap gap-2" id="styleTransfer">
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Copy art style">🎨 Art Style</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Match color palette">🌈 Color Palette</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Copy texture">🧱 Texture</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Match brushwork">🖌️ Brushwork</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Copy lighting style">💡 Lighting Style</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Match mood and tone">🎭 Mood & Tone</button>
+                                </div>
+                            </div>
+
+                            <!-- Composition/Pose Options -->
+                            <div id="compositionRefOptions" class="hidden">
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Composition/Pose Options</label>
+                                <div class="flex flex-wrap gap-2" id="compositionRef">
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Copy exact pose">🕺 Exact Pose</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Match composition layout">📐 Layout</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Copy body position">🧍 Body Position</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Match camera angle from reference">📷 Camera Angle</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Copy depth and perspective">🔭 Depth/Perspective</button>
+                                    <button class="ref-option px-4 py-2 rounded-lg border border-white/20 hover:bg-white/10 transition" data-value="Match subject placement">🎯 Subject Placement</button>
+                                </div>
+                            </div>
+
+                            <!-- Influence Strength -->
+                            <div>
+                                <label class="block text-sm font-medium text-gray-300 mb-2">Influence Strength: <span id="strengthValue" class="text-purple-400">75%</span></label>
+                                <input type="range" id="referenceStrength" min="0" max="100" value="75" class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-purple-500" onchange="updateStrength()">
+                                <div class="flex justify-between text-xs text-gray-500 mt-1">
+                                    <span>Subtle (0%)</span>
+                                    <span>Balanced (50%)</span>
+                                    <span>Strong (100%)</span>
+                                </div>
+                            </div>
+
+                            <!-- Platform Syntax Helper -->
+                            <div class="bg-black/30 rounded-lg p-4 mt-4">
+                                <h4 class="text-sm font-semibold text-purple-400 mb-2">📋 Platform-Specific Syntax</h4>
+                                <div class="space-y-2 text-xs">
+                                    <div class="flex items-start gap-2">
+                                        <span class="bg-blue-600/30 text-blue-300 px-2 py-0.5 rounded text-xs font-mono">Midjourney</span>
+                                        <code id="mjSyntax" class="text-gray-400">--cref [IMAGE_URL] --cw 100</code>
+                                    </div>
+                                    <div class="flex items-start gap-2">
+                                        <span class="bg-green-600/30 text-green-300 px-2 py-0.5 rounded text-xs font-mono">Leonardo AI</span>
+                                        <span class="text-gray-400">Use Image Guidance → Upload reference image</span>
+                                    </div>
+                                    <div class="flex items-start gap-2">
+                                        <span class="bg-orange-600/30 text-orange-300 px-2 py-0.5 rounded text-xs font-mono">Stable Diffusion</span>
+                                        <span class="text-gray-400">Use ControlNet / IP-Adapter with reference</span>
+                                    </div>
+                                </div>
+                                <p class="text-gray-500 text-xs mt-3">💡 Replace [IMAGE_URL] with your actual image URL when using the prompt.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column - Generated Prompt -->
+                <div class="lg:col-span-1">
+                    <div class="card-gradient backdrop-blur-sm rounded-xl p-5 border border-white/10 sticky top-24 glow">
+                        <h3 class="text-lg font-semibold mb-4 flex items-center gap-2">✨ Generated Prompt</h3>
+                        
+                        <div id="promptOutput" class="bg-black/30 rounded-lg p-4 min-h-[200px] mb-4 text-gray-300 whitespace-pre-wrap break-words">
+                            <span class="text-gray-500 italic">Your prompt will appear here...</span>
+                        </div>
+
+                        <div class="flex gap-2 mb-4">
+                            <button onclick="copyPrompt()" class="flex-1 btn-gradient text-white font-semibold py-3 px-4 rounded-lg transition transform hover:scale-105 flex items-center justify-center gap-2">
+                                <span>📋</span> Copy Prompt
+                            </button>
+                        </div>
+
+                        <div class="flex gap-2 mb-4">
+                            <button onclick="randomizeAll()" class="flex-1 bg-purple-600/50 hover:bg-purple-600/70 text-white font-semibold py-3 px-4 rounded-lg transition flex items-center justify-center gap-2">
+                                <span>🎲</span> Random
+                            </button>
+                            <button onclick="clearAll()" class="flex-1 bg-red-600/50 hover:bg-red-600/70 text-white font-semibold py-3 px-4 rounded-lg transition flex items-center justify-center gap-2">
+                                <span>🗑️</span> Clear
+                            </button>
+                        </div>
+
+                        <!-- Selected Tags Preview -->
+                        <div class="border-t border-white/10 pt-4">
+                            <h4 class="text-sm font-medium text-gray-400 mb-2">Selected Elements:</h4>
+                            <div id="selectedTags" class="flex flex-wrap gap-2 min-h-[50px]">
+                                <span class="text-gray-500 text-sm italic">No elements selected</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Page -->
+    <section id="privacyPage" class="min-h-screen pt-24 hidden">
+        <div class="container mx-auto px-4 py-8 max-w-4xl">
+            <div class="card-gradient rounded-2xl p-8 md:p-12 border border-white/10">
+                <div class="text-center mb-10">
+                    <h1 class="text-3xl md:text-4xl font-bold mb-4">🔒 Privacy Policy</h1>
+                    <p class="text-gray-400">Last updated: January 2024</p>
+                </div>
+                
+                <div class="legal-content text-gray-300">
+                    <p>Welcome to PromptCraft AI ("we", "our", or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.</p>
+                    
+                    <h2>1. Information We Collect</h2>
+                    
+                    <h3>1.1 Information Automatically Collected</h3>
+                    <p>When you visit our website, we may automatically collect certain information about your device, including:</p>
+                    <ul>
+                        <li>Browser type and version</li>
+                        <li>Operating system</li>
+                        <li>IP address (anonymized)</li>
+                        <li>Pages visited and time spent</li>
+                        <li>Referring website</li>
+                        <li>Device type (desktop, mobile, tablet)</li>
+                    </ul>
+                    
+                    <h3>1.2 Information You Provide</h3>
+                    <p>We may collect information that you voluntarily provide, such as:</p>
+                    <ul>
+                        <li>Prompts you create using our generator (stored locally in your browser)</li>
+                        <li>Admin login credentials (for gallery management)</li>
+                        <li>Any feedback or contact information you submit</li>
+                    </ul>
+                    
+                    <h2>2. How We Use Your Information</h2>
+                    <p>We use the information we collect to:</p>
+                    <ul>
+                        <li>Provide and maintain our services</li>
+                        <li>Improve and optimize our website</li>
+                        <li>Understand how users interact with our tools</li>
+                        <li>Develop new features and functionality</li>
+                        <li>Monitor and analyze usage patterns</li>
+                        <li>Prevent fraudulent activity</li>
+                    </ul>
+                    
+                    <h2>3. Cookies and Tracking Technologies</h2>
+                    <p>We use cookies and similar tracking technologies to collect and track information about your browsing activity. You can control cookies through your browser settings and our cookie preference center.</p>
+                    
+                    <h3>3.1 Types of Cookies We Use</h3>
+                    <ul>
+                        <li><strong>Essential Cookies:</strong> Required for basic website functionality</li>
+                        <li><strong>Analytics Cookies:</strong> Help us understand how visitors use our site (Google Analytics)</li>
+                        <li><strong>Marketing Cookies:</strong> Used for advertising purposes (optional)</li>
+                    </ul>
+                    
+                    <h2>4. Third-Party Services</h2>
+                    <p>We use the following third-party services:</p>
+                    <ul>
+                        <li><strong>Google Analytics:</strong> For website analytics and usage statistics</li>
+                        <li><strong>Firebase:</strong> For data storage (prompts gallery)</li>
+                        <li><strong>External Image Hosts:</strong> PostImages, ImgBB, Unsplash for image storage</li>
+                    </ul>
+                    
+                    <h2>5. Data Storage and Security</h2>
+                    <p>Your prompts and preferences are stored locally in your browser's localStorage. Gallery data is stored in Firebase Firestore with appropriate security rules. We implement reasonable security measures to protect your information.</p>
+                    
+                    <h2>6. Your Rights (GDPR & CCPA)</h2>
+                    <p>Depending on your location, you may have the following rights:</p>
+                    <ul>
+                        <li>Right to access your personal data</li>
+                        <li>Right to rectification of inaccurate data</li>
+                        <li>Right to erasure ("right to be forgotten")</li>
+                        <li>Right to restrict processing</li>
+                        <li>Right to data portability</li>
+                        <li>Right to object to processing</li>
+                        <li>Right to withdraw consent</li>
+                    </ul>
+                    
+                    <h2>7. Children's Privacy</h2>
+                    <p>Our service is not directed to individuals under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+                    
+                    <h2>8. Changes to This Policy</h2>
+                    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+                    
+                    <h2>9. Contact Us</h2>
+                    <p>If you have questions about this Privacy Policy, please contact us at:</p>
+                    <ul>
+                        <li>Email: privacy@promptcraftai.com</li>
+                        <li>Website: <a href="#" onclick="showPage('landing'); return false;">promptcraftai.xyz</a></li>
+                    </ul>
+                </div>
+                
+                <div class="mt-10 flex flex-wrap gap-4 justify-center">
+                    <button onclick="showPage('landing')" class="btn-gradient px-8 py-3 rounded-lg font-semibold">
+                        ← Back to Home
+                    </button>
+                    <button onclick="showPage('terms')" class="bg-white/10 border border-white/20 px-8 py-3 rounded-lg font-semibold hover:bg-white/20">
+                        Terms of Service →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms of Service Page -->
+    <section id="termsPage" class="min-h-screen pt-24 hidden">
+        <div class="container mx-auto px-4 py-8 max-w-4xl">
+            <div class="card-gradient rounded-2xl p-8 md:p-12 border border-white/10">
+                <div class="text-center mb-10">
+                    <h1 class="text-3xl md:text-4xl font-bold mb-4">📜 Terms of Service</h1>
+                    <p class="text-gray-400">Last updated: January 2024</p>
+                </div>
+                
+                <div class="legal-content text-gray-300">
+                    <p>Welcome to PromptCraft AI. By accessing or using our website and services, you agree to be bound by these Terms of Service. Please read them carefully.</p>
+                    
+                    <h2>1. Acceptance of Terms</h2>
+                    <p>By accessing and using PromptCraft AI ("the Service"), you accept and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our Service.</p>
+                    
+                    <h2>2. Description of Service</h2>
+                    <p>PromptCraft AI provides:</p>
+                    <ul>
+                        <li>A free AI image prompt generator tool</li>
+                        <li>Educational content about AI image generation</li>
+                        <li>A gallery of example prompts and images</li>
+                        <li>Resources for creating prompts for Midjourney, DALL-E, Stable Diffusion, and other AI tools</li>
+                    </ul>
+                    
+                    <h2>3. User Responsibilities</h2>
+                    <p>When using our Service, you agree to:</p>
+                    <ul>
+                        <li>Use the Service for lawful purposes only</li>
+                        <li>Not generate prompts for illegal, harmful, or offensive content</li>
+                        <li>Not attempt to exploit, hack, or disrupt our systems</li>
+                        <li>Not use automated tools to scrape or collect data</li>
+                        <li>Respect intellectual property rights</li>
+                        <li>Not misrepresent yourself or impersonate others</li>
+                    </ul>
+                    
+                    <h2>4. Intellectual Property</h2>
+                    
+                    <h3>4.1 Our Content</h3>
+                    <p>All content on PromptCraft AI, including text, graphics, logos, and software, is our property or the property of our licensors and is protected by intellectual property laws.</p>
+                    
+                    <h3>4.2 User-Generated Content</h3>
+                    <p>Prompts you create using our tool belong to you. You are responsible for the content you generate and its use with third-party AI services.</p>
+                    
+                    <h3>4.3 Gallery Content</h3>
+                    <p>Images in our gallery are for demonstration purposes. Individual images may be subject to their own copyright and usage terms from their original sources.</p>
+                    
+                    <h2>5. Third-Party AI Services</h2>
+                    <p>Our prompts are designed for use with third-party AI image generators including Midjourney, DALL-E, Stable Diffusion, and others. You must comply with each platform's terms of service when using prompts generated by our tool.</p>
+                    
+                    <h2>6. Disclaimer of Warranties</h2>
+                    <p>The Service is provided "AS IS" and "AS AVAILABLE" without warranties of any kind. We do not guarantee that:</p>
+                    <ul>
+                        <li>The Service will be uninterrupted or error-free</li>
+                        <li>Results from using our prompts will meet your expectations</li>
+                        <li>The Service will be compatible with all AI platforms</li>
+                        <li>Any defects will be corrected</li>
+                    </ul>
+                    
+                    <h2>7. Limitation of Liability</h2>
+                    <p>To the maximum extent permitted by law, PromptCraft AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or goodwill.</p>
+                    
+                    <h2>8. Free Service</h2>
+                    <p>PromptCraft AI is currently provided free of charge. We reserve the right to:</p>
+                    <ul>
+                        <li>Introduce paid features in the future</li>
+                        <li>Modify or discontinue the Service at any time</li>
+                        <li>Change these terms with reasonable notice</li>
+                    </ul>
+                    
+                    <h2>9. Governing Law</h2>
+                    <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which we operate, without regard to its conflict of law provisions.</p>
+                    
+                    <h2>10. Changes to Terms</h2>
+                    <p>We may modify these Terms at any time. We will notify users of significant changes by posting a notice on our website. Continued use of the Service after changes constitutes acceptance of the modified Terms.</p>
+                    
+                    <h2>11. Termination</h2>
+                    <p>We reserve the right to terminate or suspend access to our Service immediately, without prior notice, for any violation of these Terms.</p>
+                    
+                    <h2>12. Contact Information</h2>
+                    <p>For questions about these Terms of Service, please contact us at:</p>
+                    <ul>
+                        <li>Email: legal@promptcraftai.com</li>
+                        <li>Website: <a href="#" onclick="showPage('landing'); return false;">promptcraftai.com</a></li>
+                    </ul>
+                </div>
+                
+                <div class="mt-10 flex flex-wrap gap-4 justify-center">
+                    <button onclick="showPage('landing')" class="btn-gradient px-8 py-3 rounded-lg font-semibold">
+                        ← Back to Home
+                    </button>
+                    <button onclick="showPage('privacy')" class="bg-white/10 border border-white/20 px-8 py-3 rounded-lg font-semibold hover:bg-white/20">
+                        Privacy Policy →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // ==================== FIREBASE CONFIGURATION ====================
+        // Your Firebase Configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyA3SFtA_Jovccfp6zsA0yOaM9H9zefu5oc",
+            authDomain: "promptcraftai-c69af.firebaseapp.com",
+            projectId: "promptcraftai-c69af",
+            storageBucket: "promptcraftai-c69af.firebasestorage.app",
+            messagingSenderId: "613804833006",
+            appId: "1:613804833006:web:e32652d1a2a41e05455bff",
+            measurementId: "G-L3V72BD4G0"
+        };
+
+        // Check if Firebase is configured
+        const isFirebaseConfigured = firebaseConfig.apiKey && firebaseConfig.apiKey !== "YOUR_API_KEY";
+        
+        let db = null;
+        let auth = null;
+        let firebaseInitialized = false;
+        let currentUser = null;
+
+        if (isFirebaseConfigured) {
+            try {
+                firebase.initializeApp(firebaseConfig);
+                db = firebase.firestore();
+                auth = firebase.auth();
+                firebaseInitialized = true;
+                console.log('✅ Firebase Firestore & Auth initialized successfully');
+                
+                // Listen for auth state changes
+                auth.onAuthStateChanged((user) => {
+                    currentUser = user;
+                    if (user) {
+                        console.log('✅ User logged in:', user.email);
+                        updateAdminUI(true, user.email);
+                    } else {
+                        console.log('ℹ️ No user logged in');
+                        updateAdminUI(false);
+                    }
+                });
+            } catch (error) {
+                console.error('❌ Firebase initialization error:', error);
+                firebaseInitialized = false;
+            }
+        } else {
+            console.warn('⚠️ Firebase not configured. Using localStorage as fallback.');
+        }
+        
+        // Update Admin UI based on auth state
+        function updateAdminUI(isLoggedIn, email = '') {
+            const adminLogin = document.getElementById('adminLogin');
+            const adminDashboard = document.getElementById('adminDashboard');
+            const adminUserEmail = document.getElementById('adminUserEmail');
+            
+            if (isLoggedIn) {
+                if (adminLogin) adminLogin.classList.add('hidden');
+                if (adminDashboard) adminDashboard.classList.remove('hidden');
+                if (adminUserEmail) adminUserEmail.textContent = email;
+                isAdminLoggedIn = true;
+                loadAdminCards();
+            } else {
+                if (adminLogin) adminLogin.classList.remove('hidden');
+                if (adminDashboard) adminDashboard.classList.add('hidden');
+                isAdminLoggedIn = false;
+            }
+        }
+
+        // ==================== PAGE NAVIGATION ====================
+        function showPage(page) {
+            document.getElementById('landingPage').classList.add('hidden');
+            document.getElementById('galleryPage').classList.add('hidden');
+            document.getElementById('generatorPage').classList.add('hidden');
+            document.getElementById('privacyPage').classList.add('hidden');
+            document.getElementById('termsPage').classList.add('hidden');
+            
+            document.getElementById(page + 'Page').classList.remove('hidden');
+            window.scrollTo(0, 0);
+            
+            if (page === 'gallery') {
+                loadGallery();
+            }
+            
+            // Update page title for SEO
+            const titles = {
+                'landing': 'AI Image Prompt Generator | Create Perfect Midjourney, DALL-E & Stable Diffusion Prompts',
+                'gallery': 'Prompt Gallery | Ready-to-Use AI Image Prompts - PromptCraft AI',
+                'generator': 'Prompt Generator | Build Custom AI Image Prompts - PromptCraft AI',
+                'privacy': 'Privacy Policy - PromptCraft AI',
+                'terms': 'Terms of Service - PromptCraft AI'
+            };
+            document.title = titles[page] || titles['landing'];
+            
+            // Update URL hash for bookmarking
+            if (page !== 'landing') {
+                history.pushState(null, '', '#' + page);
+            } else {
+                history.pushState(null, '', window.location.pathname);
+            }
+        }
+        
+        // ==================== COOKIE CONSENT ====================
+        const COOKIE_CONSENT_KEY = 'promptcraft_cookie_consent';
+        
+        function checkCookieConsent() {
+            const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
+            if (!consent) {
+                // Show cookie banner if no consent recorded
+                setTimeout(() => {
+                    document.getElementById('cookieConsentBanner').classList.remove('hidden');
+                }, 1000); // Delay to not overwhelm user
+            } else {
+                // Apply saved preferences
+                const preferences = JSON.parse(consent);
+                applyCookiePreferences(preferences);
+            }
+        }
+        
+        function acceptAllCookies() {
+            const preferences = {
+                essential: true,
+                analytics: true,
+                marketing: true,
+                timestamp: Date.now()
+            };
+            saveCookiePreferences(preferences);
+            hideCookieBanner();
+            showToast('Cookie preferences saved!');
+            
+            // Track this event in analytics
+            if (typeof gtag !== 'undefined') {
+                grantAnalyticsConsent();
+                gtag('event', 'cookie_consent', { 'consent_type': 'all' });
+            }
+        }
+        
+        function acceptEssentialCookies() {
+            const preferences = {
+                essential: true,
+                analytics: false,
+                marketing: false,
+                timestamp: Date.now()
+            };
+            saveCookiePreferences(preferences);
+            hideCookieBanner();
+            showToast('Only essential cookies enabled');
+        }
+        
+        function openCookieSettings() {
+            document.getElementById('cookieSettingsModal').classList.remove('hidden');
+            
+            // Load current preferences
+            const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
+            if (consent) {
+                const preferences = JSON.parse(consent);
+                document.getElementById('analyticsCookies').checked = preferences.analytics || false;
+                document.getElementById('marketingCookies').checked = preferences.marketing || false;
+            }
+        }
+        
+        function closeCookieSettings() {
+            document.getElementById('cookieSettingsModal').classList.add('hidden');
+        }
+        
+        function saveCustomCookiePreferences() {
+            const preferences = {
+                essential: true, // Always true
+                analytics: document.getElementById('analyticsCookies').checked,
+                marketing: document.getElementById('marketingCookies').checked,
+                timestamp: Date.now()
+            };
+            saveCookiePreferences(preferences);
+            closeCookieSettings();
+            hideCookieBanner();
+            showToast('Cookie preferences saved!');
+            
+            // Apply analytics consent
+            if (preferences.analytics && typeof gtag !== 'undefined') {
+                grantAnalyticsConsent();
+            }
+        }
+        
+        function saveCookiePreferences(preferences) {
+            localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(preferences));
+            applyCookiePreferences(preferences);
+        }
+        
+        function applyCookiePreferences(preferences) {
+            // Apply analytics preference
+            if (preferences.analytics && typeof gtag !== 'undefined') {
+                grantAnalyticsConsent();
+            }
+            
+            // Apply marketing preference (for future ad integrations)
+            if (preferences.marketing) {
+                // Enable marketing/advertising cookies when implemented
+                console.log('Marketing cookies enabled');
+            }
+        }
+        
+        function hideCookieBanner() {
+            document.getElementById('cookieConsentBanner').classList.add('hidden');
+        }
+        
+        // ==================== ANALYTICS HELPER FUNCTIONS ====================
+        function trackEvent(eventName, eventParams = {}) {
+            const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
+            if (consent) {
+                const preferences = JSON.parse(consent);
+                if (preferences.analytics && typeof gtag !== 'undefined') {
+                    gtag('event', eventName, eventParams);
+                }
+            }
+        }
+        
+        // Track key user actions
+        function trackPromptCopy() {
+            trackEvent('prompt_copied', { 'source': 'generator' });
+        }
+        
+        function trackGalleryView(promptId) {
+            trackEvent('gallery_view', { 'prompt_id': promptId });
+        }
+        
+        function trackRandomize() {
+            trackEvent('randomize_used');
+        }
+        
+        // Handle browser back/forward buttons
+        window.addEventListener('popstate', () => {
+            const hash = window.location.hash.replace('#', '');
+            if (['gallery', 'generator', 'privacy', 'terms'].includes(hash)) {
+                showPage(hash);
+            } else {
+                showPage('landing');
+            }
+        });
+        
+        // Load page based on URL hash on initial load
+        window.addEventListener('load', () => {
+            const hash = window.location.hash.replace('#', '');
+            if (['gallery', 'generator', 'privacy', 'terms'].includes(hash)) {
+                showPage(hash);
+            }
+            
+            // Check cookie consent
+            checkCookieConsent();
+        });
+
+        // ==================== ADMIN PANEL ====================
+        let isAdminLoggedIn = false;
+
+        function toggleAdminPanel() {
+            document.getElementById('adminModal').classList.remove('hidden');
+            
+            // Check if already logged in
+            if (currentUser) {
+                updateAdminUI(true, currentUser.email);
+            } else {
+                updateAdminUI(false);
+            }
+        }
+
+        function closeAdminPanel() {
+            document.getElementById('adminModal').classList.add('hidden');
+            resetForm();
+            hideLoginError();
+        }
+
+        async function loginAdmin() {
+            const email = document.getElementById('adminEmail').value.trim();
+            const password = document.getElementById('adminPassword').value;
+            const loginBtn = document.getElementById('loginBtn');
+            
+            if (!email || !password) {
+                showLoginError('Please enter both email and password.');
+                return;
+            }
+            
+            if (!auth) {
+                showLoginError('Firebase Authentication is not configured. Please set up Firebase Auth in your Firebase Console.');
+                return;
+            }
+            
+            // Show loading state
+            loginBtn.innerHTML = '<span class="animate-spin">⏳</span> Signing in...';
+            loginBtn.disabled = true;
+            hideLoginError();
+            
+            try {
+                const userCredential = await auth.signInWithEmailAndPassword(email, password);
+                console.log('✅ Login successful:', userCredential.user.email);
+                showToast('Welcome back, Admin!');
+                // Clear form
+                document.getElementById('adminEmail').value = '';
+                document.getElementById('adminPassword').value = '';
+            } catch (error) {
+                console.error('❌ Login error:', error);
+                
+                let errorMessage = 'Login failed. Please try again.';
+                switch (error.code) {
+                    case 'auth/user-not-found':
+                        errorMessage = 'No admin account found with this email.';
+                        break;
+                    case 'auth/wrong-password':
+                        errorMessage = 'Incorrect password. Please try again.';
+                        break;
+                    case 'auth/invalid-email':
+                        errorMessage = 'Please enter a valid email address.';
+                        break;
+                    case 'auth/too-many-requests':
+                        errorMessage = 'Too many failed attempts. Please try again later.';
+                        break;
+                    case 'auth/invalid-credential':
+                        errorMessage = 'Invalid email or password. Please check and try again.';
+                        break;
+                    case 'auth/network-request-failed':
+                        errorMessage = 'Network error. Please check your internet connection.';
+                        break;
+                }
+                showLoginError(errorMessage);
+            }
+            
+            // Reset button
+            loginBtn.innerHTML = '<span>🔓</span> Sign In';
+            loginBtn.disabled = false;
+        }
+        
+        async function logoutAdmin() {
+            if (!auth) return;
+            
+            try {
+                await auth.signOut();
+                showToast('Logged out successfully');
+                updateAdminUI(false);
+            } catch (error) {
+                console.error('Logout error:', error);
+                showToast('Error logging out', true);
+            }
+        }
+        
+        function toggleForgotPassword() {
+            const form = document.getElementById('forgotPasswordForm');
+            form.classList.toggle('hidden');
+        }
+        
+        async function sendPasswordReset() {
+            const email = document.getElementById('resetEmail').value.trim();
+            
+            if (!email) {
+                showToast('Please enter your email address', true);
+                return;
+            }
+            
+            if (!auth) {
+                showToast('Firebase Authentication is not configured', true);
+                return;
+            }
+            
+            try {
+                await auth.sendPasswordResetEmail(email);
+                showToast('Password reset email sent! Check your inbox.');
+                document.getElementById('resetEmail').value = '';
+                document.getElementById('forgotPasswordForm').classList.add('hidden');
+            } catch (error) {
+                console.error('Password reset error:', error);
+                
+                let errorMessage = 'Failed to send reset email.';
+                if (error.code === 'auth/user-not-found') {
+                    errorMessage = 'No account found with this email.';
+                } else if (error.code === 'auth/invalid-email') {
+                    errorMessage = 'Please enter a valid email address.';
+                }
+                showToast(errorMessage, true);
+            }
+        }
+        
+        function showLoginError(message) {
+            const errorDiv = document.getElementById('loginError');
+            errorDiv.textContent = message;
+            errorDiv.classList.remove('hidden');
+        }
+        
+        function hideLoginError() {
+            const errorDiv = document.getElementById('loginError');
+            if (errorDiv) {
+                errorDiv.classList.add('hidden');
+            }
+        }
+
+        // ==================== GALLERY DATA MANAGEMENT ====================
+        const STORAGE_KEY = 'promptGalleryData';
+
+        // Default sample data
+        const defaultGalleryData = [
+            {
+                id: "1",
+                title: "Mystical Forest Portrait",
+                category: "fantasy",
+                prompt: "A beautiful elven woman with long silver hair, ethereal face, pointed ears, wearing a flowing emerald green dress, standing in an enchanted forest, magical particles floating around, bioluminescent mushrooms, golden hour lighting, rim light, dreamy atmosphere, fantasy style, 85mm portrait lens, shallow DOF f/1.4, 8K resolution, highly detailed, masterpiece",
+                tags: ["fantasy", "portrait", "ethereal", "golden hour"],
+                image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=300&fit=crop",
+                createdAt: Date.now()
+            },
+            {
+                id: "2",
+                title: "Cyberpunk City Night",
+                category: "scifi",
+                prompt: "Futuristic cyberpunk cityscape at night, neon signs in Japanese and English, flying cars, rain-soaked streets reflecting neon lights, towering skyscrapers, holographic advertisements, volumetric fog, cinematic style, wide angle 24mm, teal and orange color grading, ultra HD, blade runner inspired, dramatic atmosphere",
+                tags: ["cyberpunk", "city", "neon", "night"],
+                image: "https://images.unsplash.com/photo-1545486332-9e0999c535b2?w=400&h=300&fit=crop",
+                createdAt: Date.now()
+            },
+            {
+                id: "3",
+                title: "Cinematic Portrait",
+                category: "cinematic",
+                prompt: "A handsome man with sharp jawline, short dark hair with fade, wearing a tailored black suit, standing in a dimly lit vintage bar, Rembrandt lighting, moody atmosphere, film noir style, Canon EOS R5, 85mm portrait lens, shallow DOF f/2.8, warm tones, high contrast, professional photography, award winning",
+                tags: ["cinematic", "portrait", "moody", "film noir"],
+                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+                createdAt: Date.now()
+            },
+            {
+                id: "4",
+                title: "Mountain Sunset Landscape",
+                category: "landscape",
+                prompt: "Majestic mountain range at sunset, golden hour lighting, dramatic clouds painted in orange and purple, pristine alpine lake reflecting the mountains, pine forest in foreground, snow-capped peaks, serene atmosphere, landscape photography, wide angle 16mm, deep DOF f/11, vibrant colors, 8K resolution, National Geographic style",
+                tags: ["landscape", "mountains", "sunset", "nature"],
+                image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+                createdAt: Date.now()
+            }
+        ];
+
+        // ==================== FIREBASE OPERATIONS ====================
+        async function getGalleryDataFromFirebase() {
+            if (!db || !firebaseInitialized) {
+                console.log('⚠️ Firebase DB not available');
+                return null;
+            }
+            try {
+                showLoading(true);
+                console.log('📡 Fetching data from Firestore...');
+                const snapshot = await db.collection('prompts').orderBy('createdAt', 'desc').get();
+                const data = [];
+                snapshot.forEach(doc => {
+                    data.push({ id: doc.id, ...doc.data() });
+                });
+                console.log(`✅ Fetched ${data.length} prompts from Firebase`);
+                showLoading(false);
+                return data;
+            } catch (error) {
+                console.error('❌ Error fetching from Firebase:', error);
+                console.error('Error code:', error.code);
+                console.error('Error message:', error.message);
+                showLoading(false);
+                showToast('Firebase Error: ' + error.message, true);
+                return null;
+            }
+        }
+
+        async function addToFirebase(cardData) {
+            if (!db || !firebaseInitialized) {
+                console.log('⚠️ Firebase DB not available for adding');
+                return null;
+            }
+            try {
+                console.log('📝 Adding document to Firestore...');
+                const docRef = await db.collection('prompts').add(cardData);
+                console.log('✅ Document added with ID:', docRef.id);
+                return docRef.id;
+            } catch (error) {
+                console.error('❌ Error adding to Firebase:', error);
+                showToast('Firebase Error: ' + error.message, true);
+                return null;
+            }
+        }
+
+        async function updateInFirebase(id, cardData) {
+            if (!db || !firebaseInitialized) return false;
+            try {
+                console.log('📝 Updating document:', id);
+                await db.collection('prompts').doc(id).update(cardData);
+                console.log('✅ Document updated');
+                return true;
+            } catch (error) {
+                console.error('❌ Error updating in Firebase:', error);
+                showToast('Firebase Error: ' + error.message, true);
+                return false;
+            }
+        }
+
+        async function deleteFromFirebase(id) {
+            if (!db || !firebaseInitialized) return false;
+            try {
+                console.log('🗑️ Deleting document:', id);
+                await db.collection('prompts').doc(id).delete();
+                console.log('✅ Document deleted');
+                return true;
+            } catch (error) {
+                console.error('❌ Error deleting from Firebase:', error);
+                showToast('Firebase Error: ' + error.message, true);
+                return false;
+            }
+        }
+
+        // Test Firebase connection
+        async function testFirebaseConnection() {
+            if (!firebaseInitialized) {
+                console.log('❌ Firebase not initialized');
+                return false;
+            }
+            try {
+                console.log('🔍 Testing Firebase connection...');
+                // Try to get collection info
+                const testSnapshot = await db.collection('prompts').limit(1).get();
+                console.log('✅ Firebase Firestore connection successful!');
+                return true;
+            } catch (error) {
+                console.error('❌ Firebase connection test failed:', error);
+                console.error('Error code:', error.code);
+                
+                if (error.code === 'permission-denied') {
+                    showToast('Firebase: Permission denied. Please check Firestore security rules.', true);
+                } else if (error.code === 'unavailable') {
+                    showToast('Firebase: Service unavailable. Check your internet connection.', true);
+                }
+                return false;
+            }
+        }
+
+        // ==================== LOCAL STORAGE FALLBACK ====================
+        function getLocalData() {
+            const data = localStorage.getItem(STORAGE_KEY);
+            if (data) {
+                return JSON.parse(data);
+            }
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultGalleryData));
+            return defaultGalleryData;
+        }
+
+        function saveLocalData(data) {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        }
+
+        // ==================== UNIFIED DATA OPERATIONS ====================
+        async function getGalleryData() {
+            // Use Firebase if properly initialized
+            if (firebaseInitialized && db) {
+                console.log('📡 Using Firebase for data...');
+                const firebaseData = await getGalleryDataFromFirebase();
+                if (firebaseData !== null) {
+                    if (firebaseData.length === 0) {
+                        console.log('📝 Firebase empty, initializing with default data...');
+                        // Initialize Firebase with default data if empty
+                        for (const item of defaultGalleryData) {
+                            await addToFirebase(item);
+                        }
+                        return await getGalleryDataFromFirebase();
+                    }
+                    return firebaseData;
+                }
+                console.log('⚠️ Firebase returned null, falling back to local storage');
+            }
+            console.log('💾 Using local storage for data...');
+            return getLocalData();
+        }
+
+        async function savePromptData(cardData, editingId = null) {
+            if (firebaseInitialized && db) {
+                console.log('📡 Saving to Firebase...');
+                if (editingId) {
+                    const success = await updateInFirebase(editingId, cardData);
+                    if (!success) {
+                        throw new Error('Failed to update in Firebase');
+                    }
+                } else {
+                    const docId = await addToFirebase(cardData);
+                    if (!docId) {
+                        throw new Error('Failed to add to Firebase');
+                    }
+                }
+            } else {
+                console.log('💾 Saving to local storage...');
+                const data = getLocalData();
+                if (editingId) {
+                    const index = data.findIndex(d => d.id === editingId);
+                    if (index !== -1) {
+                        data[index] = { ...data[index], ...cardData };
+                    }
+                } else {
+                    cardData.id = Date.now().toString();
+                    data.unshift(cardData);
+                }
+                saveLocalData(data);
+            }
+        }
+
+        async function deletePromptData(id) {
+            if (firebaseInitialized && db) {
+                console.log('📡 Deleting from Firebase...');
+                await deleteFromFirebase(id);
+            } else {
+                console.log('💾 Deleting from local storage...');
+                let data = getLocalData();
+                data = data.filter(d => d.id !== id);
+                saveLocalData(data);
+            }
+        }
+
+        // ==================== LOADING INDICATOR ====================
+        function showLoading(show) {
+            const loader = document.getElementById('loadingIndicator');
+            if (loader) {
+                if (show) {
+                    loader.classList.remove('hidden');
+                } else {
+                    loader.classList.add('hidden');
+                }
+            }
+        }
+
+        // ==================== GALLERY DISPLAY ====================
+        let currentFilter = 'all';
+        let galleryData = [];
+
+        async function loadGallery() {
+            galleryData = await getGalleryData();
+            renderGallery();
+        }
+
+        function renderGallery() {
+            const grid = document.getElementById('galleryGrid');
+            const emptyState = document.getElementById('emptyGallery');
+            
+            const filteredData = currentFilter === 'all' 
+                ? galleryData 
+                : galleryData.filter(item => item.category === currentFilter);
+            
+            if (filteredData.length === 0) {
+                grid.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                return;
+            }
+            
+            emptyState.classList.add('hidden');
+            grid.innerHTML = filteredData.map(item => `
+                <article class="gallery-card card-gradient rounded-xl overflow-hidden border border-white/10 cursor-pointer" onclick="viewPrompt('${item.id}')" role="button" tabindex="0" aria-label="View prompt: ${item.title}" onkeypress="if(event.key==='Enter')viewPrompt('${item.id}')">
+                    <div class="relative">
+                        <img src="${item.image}" alt="AI generated image: ${item.title} - ${item.category} style" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300?text=Image+Not+Found'">
+                        <div class="absolute top-3 right-3">
+                            <span class="bg-purple-600/80 text-white text-xs px-3 py-1 rounded-full capitalize" aria-label="Category: ${item.category}">${item.category}</span>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">${item.title}</h3>
+                        <p class="text-gray-400 text-sm prompt-text mb-3">${item.prompt}</p>
+                        <div class="flex flex-wrap gap-1 mb-3" aria-label="Tags">
+                            ${(item.tags || []).slice(0, 3).map(tag => `<span class="bg-white/10 text-gray-300 text-xs px-2 py-1 rounded">${tag}</span>`).join('')}
+                        </div>
+                        <button onclick="event.stopPropagation(); copyPromptById('${item.id}')" class="w-full bg-purple-600/50 hover:bg-purple-600/70 py-2 rounded-lg text-sm font-medium transition flex items-center justify-center gap-2" aria-label="Copy prompt for ${item.title}">
+                            <span aria-hidden="true">📋</span> Copy Prompt
+                        </button>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        function filterGallery(category) {
+            currentFilter = category;
+            
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if (btn.dataset.filter === category) {
+                    btn.classList.add('bg-purple-600/50', 'text-white');
+                    btn.classList.remove('text-gray-300');
+                } else {
+                    btn.classList.remove('bg-purple-600/50', 'text-white');
+                    btn.classList.add('text-gray-300');
+                }
+            });
+            
+            renderGallery();
+        }
+
+        function viewPrompt(id) {
+            const item = galleryData.find(d => d.id === id);
+            if (!item) return;
+            
+            document.getElementById('viewModalImage').src = item.image;
+            document.getElementById('viewModalTitle').textContent = item.title;
+            document.getElementById('viewModalPrompt').textContent = item.prompt;
+            document.getElementById('viewModalTags').innerHTML = (item.tags || []).map(tag => 
+                `<span class="bg-purple-600/30 text-purple-300 text-sm px-3 py-1 rounded-full">${tag}</span>`
+            ).join('');
+            
+            document.getElementById('viewPromptModal').classList.remove('hidden');
+            document.getElementById('viewPromptModal').dataset.promptId = id;
+        }
+
+        function closeViewModal() {
+            document.getElementById('viewPromptModal').classList.add('hidden');
+        }
+
+        function copyGalleryPrompt() {
+            const id = document.getElementById('viewPromptModal').dataset.promptId;
+            copyPromptById(id);
+        }
+
+        function copyPromptById(id) {
+            const item = galleryData.find(d => d.id === id);
+            if (item) {
+                navigator.clipboard.writeText(item.prompt).then(() => {
+                    showToast('Prompt copied to clipboard!');
+                });
+            }
+        }
+
+        function showToast(message, isError = false) {
+            const toast = document.createElement('div');
+            toast.className = `fixed bottom-4 right-4 ${isError ? 'bg-red-600' : 'bg-green-600'} text-white px-6 py-3 rounded-lg shadow-lg z-50 fade-in`;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+        // ==================== ADMIN CARD MANAGEMENT ====================
+        async function loadAdminCards() {
+            galleryData = await getGalleryData();
+            const list = document.getElementById('adminCardsList');
+            
+            if (galleryData.length === 0) {
+                list.innerHTML = '<p class="text-gray-500 text-center py-4">No prompts yet. Add your first one above!</p>';
+                return;
+            }
+            
+            list.innerHTML = galleryData.map(item => `
+                <div class="flex items-center gap-4 bg-black/30 rounded-lg p-3">
+                    <img src="${item.image}" alt="${item.title}" class="w-16 h-16 object-cover rounded" onerror="this.src='https://via.placeholder.com/64?text=No+Image'">
+                    <div class="flex-1 min-w-0">
+                        <h4 class="font-medium truncate">${item.title}</h4>
+                        <p class="text-gray-400 text-sm capitalize">${item.category}</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <button onclick="editCard('${item.id}')" class="bg-blue-600/50 hover:bg-blue-600/70 px-3 py-2 rounded text-sm">✏️ Edit</button>
+                        <button onclick="deleteCard('${item.id}')" class="bg-red-600/50 hover:bg-red-600/70 px-3 py-2 rounded text-sm">🗑️ Delete</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function previewImageUrl(event) {
+            const url = event.target.value;
+            if (url) {
+                document.getElementById('imagePreview').src = url;
+                document.getElementById('imagePreviewContainer').classList.remove('hidden');
+            } else {
+                document.getElementById('imagePreviewContainer').classList.add('hidden');
+            }
+        }
+
+        async function savePromptCard(event) {
+            event.preventDefault();
+            
+            const submitBtn = event.target.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '⏳ Saving...';
+            submitBtn.disabled = true;
+            
+            try {
+                const editingId = document.getElementById('editingId').value;
+                const title = document.getElementById('cardTitle').value;
+                const category = document.getElementById('cardCategory').value;
+                const prompt = document.getElementById('cardPrompt').value;
+                const tagsInput = document.getElementById('cardTags').value;
+                
+                const tags = tagsInput.split(',').map(t => t.trim()).filter(t => t);
+                
+                let imageUrl = document.getElementById('cardImageUrl').value.trim();
+                
+                // If editing and no new image, keep the existing one
+                if (editingId && !imageUrl) {
+                    const existingItem = galleryData.find(d => d.id === editingId);
+                    if (existingItem) {
+                        imageUrl = existingItem.image;
+                    }
+                }
+                
+                if (!imageUrl) {
+                    alert('Please provide an image URL. Use free services like PostImages, ImgBB, or Unsplash.');
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                    return;
+                }
+                
+                const cardData = {
+                    title,
+                    category,
+                    prompt,
+                    tags,
+                    image: imageUrl,
+                    createdAt: editingId ? undefined : Date.now(),
+                    updatedAt: Date.now()
+                };
+                
+                // Remove undefined values
+                Object.keys(cardData).forEach(key => cardData[key] === undefined && delete cardData[key]);
+                
+                await savePromptData(cardData, editingId || null);
+                await loadAdminCards();
+                await loadGallery();
+                resetForm();
+                showToast(editingId ? 'Prompt updated!' : 'Prompt added!');
+                
+            } catch (error) {
+                console.error('Error saving prompt:', error);
+                showToast('Error saving prompt. Please try again.', true);
+            }
+            
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+        }
+
+        function editCard(id) {
+            const item = galleryData.find(d => d.id === id);
+            if (!item) return;
+            
+            document.getElementById('editingId').value = id;
+            document.getElementById('cardTitle').value = item.title;
+            document.getElementById('cardCategory').value = item.category;
+            document.getElementById('cardPrompt').value = item.prompt;
+            document.getElementById('cardTags').value = (item.tags || []).join(', ');
+            document.getElementById('cardImageUrl').value = item.image;
+            document.getElementById('imagePreview').src = item.image;
+            document.getElementById('imagePreviewContainer').classList.remove('hidden');
+            document.getElementById('formTitle').textContent = '✏️ Edit Prompt';
+            
+            document.getElementById('promptForm').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        async function deleteCard(id) {
+            if (!confirm('Are you sure you want to delete this prompt?')) return;
+            
+            try {
+                await deletePromptData(id);
+                await loadAdminCards();
+                await loadGallery();
+                showToast('Prompt deleted!');
+            } catch (error) {
+                console.error('Error deleting:', error);
+                showToast('Error deleting prompt.', true);
+            }
+        }
+
+        function resetForm() {
+            document.getElementById('promptForm').reset();
+            document.getElementById('editingId').value = '';
+            document.getElementById('cardImageUrl').value = '';
+            document.getElementById('imagePreviewContainer').classList.add('hidden');
+            document.getElementById('formTitle').textContent = '➕ Add New Prompt';
+        }
+
+        // ==================== GENERATOR FUNCTIONALITY ====================
+        const selections = {
+            subject: '',
+            imageType: [], shotType: [], cameraAngle: [], view: [],
+            subjectPosition: [], composition: [], lighting: [], rimLighting: [],
+            mood: [], style: [], womenHair: [], menHair: [], hairColor: [],
+            outfit: [], background: [], timeOfDay: [], weather: [],
+            camera: [], dof: [], colorGrading: [], quality: [], aspectRatio: [],
+            // Reference Image options
+            referenceType: [], facePreservation: [], styleTransfer: [], compositionRef: []
+        };
+
+        // Reference image state
+        let useReference = false;
+        let referenceStrength = 75;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Subject input
+            const subjectInput = document.getElementById('subject');
+            if (subjectInput) {
+                subjectInput.addEventListener('input', (e) => {
+                    selections.subject = e.target.value;
+                    generatePrompt();
+                });
+            }
+
+            // Option buttons
+            const categories = Object.keys(selections).filter(k => k !== 'subject');
+            categories.forEach(category => {
+                const container = document.getElementById(category);
+                if (container) {
+                    container.querySelectorAll('.option-btn').forEach(btn => {
+                        btn.addEventListener('click', () => {
+                            const value = btn.dataset.value;
+                            const index = selections[category].indexOf(value);
+                            
+                            if (index > -1) {
+                                selections[category].splice(index, 1);
+                                btn.classList.remove('selected');
+                            } else {
+                                selections[category].push(value);
+                                btn.classList.add('selected');
+                            }
+                            generatePrompt();
+                        });
+                    });
+                }
+            });
+
+            // Load gallery on init
+            loadGallery();
+            
+            // Reference option buttons - with improved handling
+            document.querySelectorAll('.ref-option').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const parent = btn.parentElement;
+                    const category = parent.id;
+                    const value = btn.dataset.value;
+                    
+                    console.log('Ref option clicked:', category, value); // Debug
+                    
+                    if (selections[category]) {
+                        const index = selections[category].indexOf(value);
+                        if (index > -1) {
+                            selections[category].splice(index, 1);
+                            btn.classList.remove('selected');
+                        } else {
+                            selections[category].push(value);
+                            btn.classList.add('selected');
+                        }
+                        
+                        console.log('Updated selections:', selections[category]); // Debug
+                    }
+                    
+                    // Show/hide sub-options based on reference type
+                    if (category === 'referenceType') {
+                        updateReferenceSubOptions();
+                    }
+                    
+                    generatePrompt();
+                });
+            });
+        });
+
+        // Reference Image Functions
+        function toggleReferenceOptions() {
+            const checkbox = document.getElementById('useReferenceImage');
+            const optionsDiv = document.getElementById('referenceOptions');
+            useReference = checkbox.checked;
+            
+            if (useReference) {
+                optionsDiv.classList.remove('hidden');
+            } else {
+                optionsDiv.classList.add('hidden');
+                // Clear reference selections
+                selections.referenceType = [];
+                selections.facePreservation = [];
+                selections.styleTransfer = [];
+                selections.compositionRef = [];
+                // Clear all ref-option selected states
+                document.querySelectorAll('.ref-option.selected').forEach(btn => btn.classList.remove('selected'));
+                // Hide sub-option panels
+                document.getElementById('faceOptions').classList.add('hidden');
+                document.getElementById('styleRefOptions').classList.add('hidden');
+                document.getElementById('compositionRefOptions').classList.add('hidden');
+            }
+            generatePrompt();
+        }
+
+        function updateReferenceSubOptions() {
+            const faceOptions = document.getElementById('faceOptions');
+            const styleOptions = document.getElementById('styleRefOptions');
+            const compOptions = document.getElementById('compositionRefOptions');
+            
+            // Hide all first
+            faceOptions.classList.add('hidden');
+            styleOptions.classList.add('hidden');
+            compOptions.classList.add('hidden');
+            
+            // Show based on selected reference type
+            if (selections.referenceType.includes('Character Reference') || selections.referenceType.includes('Pose Reference')) {
+                faceOptions.classList.remove('hidden');
+            }
+            if (selections.referenceType.includes('Style Reference')) {
+                styleOptions.classList.remove('hidden');
+            }
+            if (selections.referenceType.includes('Image Reference') || selections.referenceType.includes('Pose Reference')) {
+                compOptions.classList.remove('hidden');
+            }
+            
+            updateMidjourneySyntax();
+        }
+
+        function updateStrength() {
+            const slider = document.getElementById('referenceStrength');
+            const display = document.getElementById('strengthValue');
+            referenceStrength = parseInt(slider.value);
+            display.textContent = referenceStrength + '%';
+            updateMidjourneySyntax();
+            generatePrompt();
+        }
+
+        function updateMidjourneySyntax() {
+            const syntaxEl = document.getElementById('mjSyntax');
+            let syntax = '';
+            
+            if (selections.referenceType.includes('Character Reference')) {
+                syntax = `--cref [IMAGE_URL] --cw ${referenceStrength}`;
+            } else if (selections.referenceType.includes('Style Reference')) {
+                syntax = `--sref [IMAGE_URL] --sw ${referenceStrength}`;
+            } else if (selections.referenceType.includes('Image Reference')) {
+                syntax = `[IMAGE_URL] --iw ${referenceStrength / 100}`;
+            } else if (selections.referenceType.includes('Pose Reference')) {
+                syntax = `--cref [IMAGE_URL] --cw ${referenceStrength} (with pose instructions)`;
+            } else {
+                syntax = '--cref [IMAGE_URL] --cw 100';
+            }
+            
+            syntaxEl.textContent = syntax;
+        }
+
+        function generatePrompt() {
+            const parts = [];
+            if (selections.subject) parts.push(selections.subject);
+
+            const order = ['imageType', 'shotType', 'cameraAngle', 'view', 'outfit', 
+                          'womenHair', 'menHair', 'hairColor', 'subjectPosition', 
+                          'composition', 'background', 'timeOfDay', 'weather', 
+                          'lighting', 'rimLighting', 'mood', 'style', 'camera', 
+                          'dof', 'colorGrading', 'quality', 'aspectRatio'];
+
+            order.forEach(category => {
+                if (selections[category].length > 0) {
+                    parts.push(selections[category].join(', '));
+                }
+            });
+
+            let prompt = parts.join(', ');
+            
+            // Add reference image context if enabled
+            if (useReference) {
+                const refParts = [];
+                
+                // Add reference type context
+                if (selections.referenceType.includes('Character Reference')) {
+                    refParts.push('use reference image for face/character');
+                }
+                if (selections.referenceType.includes('Style Reference')) {
+                    refParts.push('use reference image for style');
+                }
+                if (selections.referenceType.includes('Image Reference')) {
+                    refParts.push('use reference image as base');
+                }
+                if (selections.referenceType.includes('Pose Reference')) {
+                    refParts.push('use reference image for pose');
+                }
+                
+                // Add specific preservation/transfer options
+                if (selections.facePreservation.length > 0) {
+                    refParts.push(selections.facePreservation.join(', '));
+                }
+                if (selections.styleTransfer.length > 0) {
+                    refParts.push(selections.styleTransfer.join(', '));
+                }
+                if (selections.compositionRef.length > 0) {
+                    refParts.push(selections.compositionRef.join(', '));
+                }
+                
+                // Add strength indicator
+                if (refParts.length > 0) {
+                    let strengthLabel = 'moderate';
+                    if (referenceStrength <= 25) strengthLabel = 'subtle';
+                    else if (referenceStrength <= 50) strengthLabel = 'moderate';
+                    else if (referenceStrength <= 75) strengthLabel = 'strong';
+                    else strengthLabel = 'very strong';
+                    
+                    refParts.push(`${strengthLabel} reference influence (${referenceStrength}%)`);
+                    prompt += ', ' + refParts.join(', ');
+                }
+            }
+            
+            const outputEl = document.getElementById('promptOutput');
+            
+            if (prompt) {
+                outputEl.innerHTML = prompt;
+            } else {
+                outputEl.innerHTML = '<span class="text-gray-500 italic">Your prompt will appear here...</span>';
+            }
+            updateSelectedTags();
+        }
+
+        function updateSelectedTags() {
+            const tagsContainer = document.getElementById('selectedTags');
+            const allTags = [];
+
+            Object.keys(selections).forEach(key => {
+                if (key === 'subject' && selections.subject) {
+                    allTags.push({ value: 'Subject: ' + selections.subject.substring(0, 20) + (selections.subject.length > 20 ? '...' : '') });
+                } else if (Array.isArray(selections[key])) {
+                    selections[key].forEach(val => allTags.push({ value: val }));
+                }
+            });
+
+            if (allTags.length === 0) {
+                tagsContainer.innerHTML = '<span class="text-gray-500 text-sm italic">No elements selected</span>';
+            } else {
+                tagsContainer.innerHTML = allTags.map(tag => 
+                    `<span class="bg-purple-600/30 text-purple-300 px-2 py-1 rounded text-xs">${tag.value}</span>`
+                ).join('');
+            }
+        }
+
+        function copyPrompt() {
+            const promptText = document.getElementById('promptOutput').innerText;
+            if (promptText && !promptText.includes('Your prompt will appear here')) {
+                navigator.clipboard.writeText(promptText).then(() => {
+                    showToast('Prompt copied to clipboard!');
+                    trackPromptCopy();
+                });
+            }
+        }
+
+        function clearAll() {
+            const subjectInput = document.getElementById('subject');
+            if (subjectInput) subjectInput.value = '';
+            selections.subject = '';
+
+            Object.keys(selections).forEach(key => {
+                if (Array.isArray(selections[key])) selections[key] = [];
+            });
+
+            // Clear both option-btn and ref-option selected states
+            document.querySelectorAll('.option-btn.selected, .ref-option.selected').forEach(btn => {
+                btn.classList.remove('selected');
+            });
+            
+            // Reset reference image options
+            const refCheckbox = document.getElementById('useReferenceImage');
+            if (refCheckbox) {
+                refCheckbox.checked = false;
+                useReference = false;
+                document.getElementById('referenceOptions').classList.add('hidden');
+                document.getElementById('faceOptions').classList.add('hidden');
+                document.getElementById('styleRefOptions').classList.add('hidden');
+                document.getElementById('compositionRefOptions').classList.add('hidden');
+            }
+            
+            // Reset strength slider
+            const strengthSlider = document.getElementById('referenceStrength');
+            if (strengthSlider) {
+                strengthSlider.value = 75;
+                referenceStrength = 75;
+                document.getElementById('strengthValue').textContent = '75%';
+            }
+            
+            generatePrompt();
+        }
+
+        function randomizeAll() {
+            clearAll();
+            trackRandomize();
+
+            const subjects = [
+                'A beautiful woman with flowing golden hair',
+                'A mysterious warrior in ancient armor',
+                'A futuristic robot with glowing blue eyes',
+                'A majestic eagle soaring through the sky',
+                'An enchanted forest with magical creatures',
+                'A steampunk inventor in their workshop'
+            ];
+            
+            const subjectInput = document.getElementById('subject');
+            if (subjectInput) {
+                subjectInput.value = subjects[Math.floor(Math.random() * subjects.length)];
+                selections.subject = subjectInput.value;
+            }
+
+            const categories = ['imageType', 'shotType', 'cameraAngle', 'view', 'lighting', 'mood', 'style', 'quality'];
+            categories.forEach(category => {
+                const container = document.getElementById(category);
+                if (container) {
+                    const buttons = container.querySelectorAll('.option-btn');
+                    if (buttons.length > 0) {
+                        const randomBtn = buttons[Math.floor(Math.random() * buttons.length)];
+                        randomBtn.click();
+                    }
+                }
+            });
+            generatePrompt();
+        }
+
+        // Close modals on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeAdminPanel();
+                closeViewModal();
+            }
+        });
+
+        // Close modals on backdrop click
+        document.getElementById('adminModal').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('adminModal')) closeAdminPanel();
+        });
+        document.getElementById('viewPromptModal').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('viewPromptModal')) closeViewModal();
+        });
+
+        // ==================== INITIALIZATION ====================
+        async function initializeApp() {
+            // Check Firebase configuration status
+            const storageTypeEl = document.getElementById('storageType');
+            const firebaseBanner = document.getElementById('firebaseSetupBanner');
+            
+            if (firebaseInitialized && db) {
+                // Test the actual connection
+                const isConnected = await testFirebaseConnection();
+                
+                if (isConnected) {
+                    if (storageTypeEl) storageTypeEl.textContent = '☁️ Firebase Firestore (Connected) + External Image URLs';
+                    if (storageTypeEl) storageTypeEl.className = 'text-green-400';
+                    if (firebaseBanner) firebaseBanner.classList.add('hidden');
+                } else {
+                    if (storageTypeEl) storageTypeEl.textContent = '⚠️ Firebase Error - Using Local Storage';
+                    if (storageTypeEl) storageTypeEl.className = 'text-red-400';
+                    if (firebaseBanner) firebaseBanner.classList.remove('hidden');
+                    // Fall back to local storage
+                    firebaseInitialized = false;
+                }
+            } else {
+                if (storageTypeEl) storageTypeEl.textContent = '💾 Local Browser Storage (Data won\'t sync across devices)';
+                if (storageTypeEl) storageTypeEl.className = 'text-yellow-400';
+                if (firebaseBanner) firebaseBanner.classList.remove('hidden');
+            }
+        }
+
+        // Run initialization when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeApp();
+        });
+    </script>
+</body>
+</html>
